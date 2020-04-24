@@ -16,3 +16,6 @@ This is a preview for the official website.
 ### Next Meeting
 
 **Saturday, April 25, 2020**
+
+- Egypt: **9:00 PM (GMT +2)**
+- Saudi Arabia: **10:00 PM (GMT +3)**
