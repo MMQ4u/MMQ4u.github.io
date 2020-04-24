@@ -1,3 +1,3 @@
-## موقع المميز والمتميز التعليمي
+## Official Website for MMQ
 
-عرض تجريبي لموقع المميز والمتميز التعليمي - النسخة التجريبية.
+This is a preview for the official website.
