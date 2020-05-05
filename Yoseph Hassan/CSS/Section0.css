@@ -1,25 +1,27 @@
 .s0 {
-    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(226, 226, 226, 1);
     border-style: solid;
-    border-width: 50px;
+    border-width: 0  0 50px 0;
 }
 #s0_0 {
-    padding: 10px;
+    padding: 50px;
 }
 #s0_0_0,
 #s0_0_1,
-#s0_0_2 {
+#s0_0_2,
+#s0_0_3 {
     display: flex;
     height: 300px;
     flex-direction: row;
     margin-bottom: 50px;
 }
-#s0_0_2 {
+#s0_0_3 {
     margin-bottom: 0;
 }
 #s0_0_0_0,
 #s0_0_1_0,
-#s0_0_2_0 {
+#s0_0_2_0,
+#s0_0_3_0 {
     padding: 50px;
     background-color: rgba(0, 44, 73, 1);
     border-color: rgba(41, 201, 226, 1);
@@ -28,14 +30,16 @@
 }
 #s0_0_0_0_0,
 #s0_0_1_0_0,
-#s0_0_2_0_0 {
+#s0_0_2_0_0,
+#s0_0_3_0_0 {
     height: 200px;
 }
 #s0_0_0_1,
 #s0_0_1_1,
-#s0_0_2_1 {
+#s0_0_2_1,
+#s0_0_3_1 {
     display: flex;
-    width: 1000%;
+    width: 100%;
     border-color: rgba(41, 201, 226, 1);
     border-style: solid;
     border-width: 5px 0 5px 5px;
@@ -43,14 +47,72 @@
 }
 #s0_0_0_1_0,
 #s0_0_1_1_0,
-#s0_0_2_1_0 {
+#s0_0_2_1_0,
+#s0_0_3_1_0 {
     padding: 10px;
     font-family: Cairo-Bold;
 }
 #s0_0_0_1_1,
 #s0_0_1_1_1,
-#s0_0_2_1_1 {
+#s0_0_2_1_1,
+#s0_0_3_1_1 {
     height: 100%;
     overflow: auto;
     padding: 10px;
+}
+@media (max-width: 700px) {
+    #s0_0_0,
+    #s0_0_1,
+    #s0_0_2,
+    #s0_0_3 {
+        display: flex;
+        height: 225px;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    #s0_0_3 {
+        margin-bottom: 0;
+    }
+    #s0_0_0_0,
+    #s0_0_1_0,
+    #s0_0_2_0,
+    #s0_0_3_0 {
+        padding: 37.5px;
+        background-color: rgba(0, 44, 73, 1);
+        border-color: rgba(41, 201, 226, 1);
+        border-style: solid;
+        border-width: 5px;
+    }
+    #s0_0_0_0_0,
+    #s0_0_1_0_0,
+    #s0_0_2_0_0,
+    #s0_0_3_0_0 {
+        height: 150px;
+    }
+    #s0_0_0_1,
+    #s0_0_1_1,
+    #s0_0_2_1,
+    #s0_0_3_1 {
+        display: flex;
+        width: 100%;
+        border-color: rgba(41, 201, 226, 1);
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        flex-direction: column;
+    }
+    #s0_0_0_1_0,
+    #s0_0_1_1_0,
+    #s0_0_2_1_0,
+    #s0_0_3_1_0 {
+        padding: 10px;
+        font-family: Cairo-Bold;
+    }
+    #s0_0_0_1_1,
+    #s0_0_1_1_1,
+    #s0_0_2_1_1,
+    #s0_0_3_1_1 {
+        height: 100%;
+        overflow: auto;
+        padding: 10px;
+    }
 }

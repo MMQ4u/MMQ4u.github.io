@@ -1,5 +1,5 @@
 .h {
-
+    width: 100%;
 }
 #h_0 {
     padding: 50px;
@@ -21,15 +21,15 @@
     text-align: center;
 }
 #h_1 {
-    overflow: hidden;
+    display: flex;
     background-color: rgba(226, 226, 226, 1);
+    flex-direction: row;
 }
 #h_1_0 {
-    display: inline-block;
-    float: left;
+    display: flex;
+    flex-direction: row;
 }
 #h_1_0_0 {
-    float: left;
     padding: 10px;
     transition: all 0.5s ease-out;
 }
@@ -40,12 +40,11 @@
     height: 20px;
 }
 #h_1_1 {
-    display: inline-block;
-    float: right;
+    display: flex;
+    flex-direction: row;
 }
 #h_1_1_0, #h_1_1_1, #h_1_1_2, #h_1_1_3, #h_1_1_4 {
     color: rgba(0, 0, 0, 1);
-    float: right;
     padding: 10px;
     font-family: Cairo-Bold;
     text-decoration: none;
@@ -63,13 +62,12 @@
 @media (max-width: 700px) {
     #h_1_1 {
         display: none;
-        float: none;
     }
     #h_1_2, #h_1_3 {
         color: rgba(0, 0, 0, 1);
-        display: block;
-        float: right;
+        display: flex;
         padding: 10px;
+        flex-direction: row;
         font-family: Cairo-Bold;
     }
     #h_1_2:hover, #h_1_3:hover {
@@ -81,28 +79,31 @@
         border-width: 0 0 2.5px 0;
     }
     #h_1_2_0 {
-        float: right;
         height: 29.6px;
         width: 29.6px;
+        margin-left: 10px;
     }
     #h_1_2_1 {
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
     }
     #h_1_2_2 {
         display: none;
+        margin-top: 39.6px;
     }
     #h_1_2_2_0, #h_1_2_2_1, #h_1_2_2_2, #h_1_2_2_3, #h_1_2_2_4 {
         color: rgba(0, 0, 0, 1);
-        display: block;
+        display: flex;
         padding: 10px;
+        flex-direction: column;
         font-family: Cairo-Bold;
         text-decoration: none;
     }
     #h_1_2_2_0:hover, #h_1_2_2_1:hover, #h_1_2_2_2:hover, #h_1_2_2_3:hover, #h_1_2_2_4:hover {
         color: rgba(41, 201, 226, 1);
-        padding: 10px 10px 7.5px 10px;
+        padding: 10px 7.5px 10px 10px;
         border-color: rgba(41, 201, 226, 1);
         border-style: solid;
-        border-width: 0 0 2.5px 0;
+        border-width: 0 2.5px 0 0;
     }
 }
