@@ -57,7 +57,7 @@ a:hover
 }
 a:active
 {
-    color: snow;
+    color: rgb(0, 84, 240);
     transition: all 0.5s ease-in-out;
 }
 .I 
@@ -227,10 +227,10 @@ span:hover
 .Listlink
 {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 22.7px;
     position: absolute;
     right: 12px;
-    top: 0;
+    top: 0px;
     
     
 }
@@ -280,4 +280,9 @@ span:hover
     top: 700px;
     right: 42%;
 
+ }
+ .mm4
+ {
+     color: rgb(1, 1, 73);
+     
  }
