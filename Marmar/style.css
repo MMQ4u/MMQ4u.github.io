@@ -1,0 +1,76 @@
+.topnav
+{
+font-size:50px;
+
+text-align:center;
+position: relative; bottom:-30px;
+
+
+}
+
+.active
+{
+    font-size:17px;
+    text-align:right;
+    color:black;
+    
+    float:right;
+    padding:30px;
+    font-weight: bold;
+    height:-10px
+}
+
+.two
+{
+    font-size:17px;
+    text-align:right;
+    color:black;
+   
+    float:right;
+    padding:30px;
+    font-weight: bold  
+}
+
+body
+{
+    background-image:url("background.jpeg");
+     background-size:cover
+    
+}
+
+
+
+.top
+{
+    background-color:rgba(0,0,0,0.5);
+    text-align:center;
+    padding:30px;
+    font-weight:bold;
+    text-decoration:none;
+
+    
+
+}
+
+.top a
+{
+color:black;
+text-align:center;
+padding:30px;
+height:30px;
+text-decoration:none;
+text-size:50px;
+
+
+
+}
+
+.top a:hover
+{
+    color:#F6CECE
+}
+
+
+
+
+
