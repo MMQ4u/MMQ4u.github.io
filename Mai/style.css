@@ -1,0 +1,74 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 238);
+}
+.tn
+{
+  overflow: auto;
+  background-color: rgb(36, 112, 199);
+}
+.tn a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 29px 15px;
+    font-size: 19px;
+}
+.tn a:hover
+{
+    background-color:rgb(232, 232, 238) ;
+    color: rgb(153, 218, 229);
+}
+
+.tn a.a
+{background-color: darkblue;
+    color: white;
+    margin:2px;
+    
+}
+
+.p
+{width: 80px;
+background-color: rgb(255, 255, 255);
+margin: 0px 635px; /* هنا بيفصل الباك جراوند*/
+ padding: 20px;
+ line-height:50px; 
+ text-align: center;
+font-style: normal;
+font-family: fantasy,Arial, Helvetica, sans-serif;
+font: outline;
+font-weight:bold;
+font-weight: 800;}
+
+div.styled
+{margin: 0px 650px 899px;}
+.styled {
+    border: 0;
+    padding: 0px 20px ;
+    line-height: 2.5;
+   position: unset;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(31, 28, 221);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(49, 36, 230);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
