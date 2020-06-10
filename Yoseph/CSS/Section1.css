@@ -70,3 +70,81 @@
     color: rgba(255, 255, 255, 1);
     background-color: rgba(248, 23, 120, 1);
 }
+#s1_0_2 {
+    margin: 30px 0 0 0;
+}
+#s1_0_2_0 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+#s1_0_2_0_0,
+#s1_0_2_0_2 {
+    
+}
+#s1_0_2_0_0_0,
+#s1_0_2_0_2_0 {
+    color: rgba(112, 112, 112, 1);
+    cursor: pointer;
+    margin: 114.2px 0;
+    padding: 10px;
+    width: 21.6px;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 21.6px;
+    font-family: segoeuib;
+    text-align: center;
+}
+#s1_0_2_0_0_0:hover,
+#s1_0_2_0_2_0:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 23, 120, 1);
+}
+#s1_0_2_0_1 {
+    width: 100%;
+}
+#s1_0_2_0_1_0 {
+    display: flex;
+    margin: 0 10px;
+    width: 100%;
+    flex-direction: row;
+}
+#s1_0_2_0_1_0_0,
+#s1_0_2_0_1_0_1,
+#s1_0_2_0_1_0_2,
+#s1_0_2_0_1_0_3,
+#s1_0_2_0_1_0_4 {
+    width: 100%;
+}
+#s1_0_2_0_1_0_0_0,
+#s1_0_2_0_1_0_1_0,
+#s1_0_2_0_1_0_2_0,
+#s1_0_2_0_1_0_3_0,
+#s1_0_2_0_1_0_4_0 {
+    cursor: pointer;
+    margin: auto;
+    width: 150px;
+}
+#s1_0_2_0_1_0_0_0_0,
+#s1_0_2_0_1_0_1_0_0,
+#s1_0_2_0_1_0_2_0_0,
+#s1_0_2_0_1_0_3_0_0,
+#s1_0_2_0_1_0_4_0_0 {
+    height: 200px;
+    width: 150px;
+    background-image: url("../Media/Photos/SVG/1440.jpg");
+    background-size: auto 100%;
+    border-radius: 20px;
+    background-position-x: center;
+    background-position-y: center;
+}
+#s1_0_2_0_1_0_0_0_1,
+#s1_0_2_0_1_0_1_0_1,
+#s1_0_2_0_1_0_2_0_1,
+#s1_0_2_0_1_0_3_0_1,
+#s1_0_2_0_1_0_4_0_1 {
+    color: rgba(112, 112, 112, 1);
+    margin: 10px 0 0 0;
+    font-family: segoeui;
+    font-size: 15px;
+    text-align: center;
+}

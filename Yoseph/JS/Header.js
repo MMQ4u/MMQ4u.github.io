@@ -2,7 +2,8 @@ var section = [
         document.getElementById("s0"),
         document.getElementById("s1"),
         document.getElementById("s2"),
-        document.getElementById("s3")
+        document.getElementById("s3"),
+        document.getElementById("f")
     ],
     i;
 for (i = 0; i < section.length; i = i + 1) {
@@ -38,6 +39,8 @@ function h_0_1_1FC() {
         section[i].style.display = "none";
     }
     section[1].style.display = "block";
+    document.getElementById("h_0_1_1_0_0").style.fill = "rgba(248, 23, 120, 1)";
+    document.getElementById("h_0_1_1_1").style.color = "rgba(248, 23, 120, 1)";
 }
 function h_0_1_2FV() {
     document.getElementById("h_0_1_2_0_0").style.fill = "rgba(100, 0, 255, 1)";
@@ -53,6 +56,20 @@ function h_0_1_2FC() {
         section[i].style.display = "none";
     }
     section[2].style.display = "block";
+}
+function h_0_2_0FC() {
+    var i;
+    for (i = 0; i < section.length; i = i + 1) {
+        section[i].style.display = "none";
+    }
+    section[4].style.display = "block";
+}
+function h_0_2_1FC() {
+    var i;
+    for (i = 0; i < section.length; i = i + 1) {
+        section[i].style.display = "none";
+    }
+    section[4].style.display = "block";
 }
 /*
 if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 50) {
