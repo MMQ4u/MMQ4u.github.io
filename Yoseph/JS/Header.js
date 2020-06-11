@@ -9,7 +9,7 @@ var section = [
 for (i = 0; i < section.length; i = i + 1) {
     section[i].style.display = "none";
 }
-section[0].style.display = "block";
+section[2].style.display = "block";
 function h_0_1_0FV() {
     document.getElementById("h_0_1_0_0_0").style.fill = "rgba(42, 213, 239, 1)";
     document.getElementById("h_0_1_0_1").style.color = "rgba(42, 213, 239, 1)";
