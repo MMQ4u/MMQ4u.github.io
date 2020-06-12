@@ -11,7 +11,8 @@
         <meta name="المميز والمتميز" content="المميز والمتميز في القدرات"/>
         <meta charset="UTF-8"/>
 <!--    CSS BS                          -->
-        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--    CSS                             -->
         <link rel="stylesheet" type="text/css" href="./CSS/Main.css"/>
 		<link rel="stylesheet" type="text/css" href="./CSS/Loader.css"/>
@@ -27,610 +28,646 @@
 		<link rel="stylesheet" type="text/css" href="./CSS/Section7.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/Footer.css"/>
 <!--    Fonts                           -->        
-        <link rel="stylesheet" type="text/css" href="./Fonts/Segoe_Ui/Segoe_Ui.css"/>
+        <link rel="stylesheet" type="text/css" href="./Fonts/Cairo/Cairo.css"/>
 <!--    Colors                          -->
 <!--
     rgba(0, 44, 73, 1)
-    rgba(42, 213, 239, 1)
+    rgba(41, 201, 226, 1)
     rgba(255, 255, 255, 1)
     rgba(0, 0, 0, 1)
-    rgba(112, 112, 112, 1)
-    rgba(248, 23, 120, 1)
-    rgba(100, 0, 255, 1)
+    rgba(226, 226, 226, 1)
 -->
     </head>
     <body class="m" id="m">
+        <canvas id="m_0"></canvas>
         <div class="l" id="l">
-            
+            <div id="l_0">
+                <div id="l_0_0">
+                    <span id="l_0_0_0"></span>
+                    <span id="l_0_0_1"></span>
+                    <span id="l_0_0_2"></span>
+                    <span id="l_0_0_3"></span>
+                </div>
+            </div>
         </div>
         <div id="m_1" onload="m_1L()">
-            <header id="h">
+            <header class="h" id="h">
                 <div id="h_0">
-                    <a id="h_0_0" href="./index.html" target="_blank">
-                        <div id="h_0_0_0">
-                            <img id="h_0_0_0_0" src="./Media/Photos/Icon.png" alt="MMQ4u"/>
-                        </div>
-                        <div id="h_0_0_1">
-                            <div id="h_0_0_1_0">منصة المميز</div>
-                            <div id="h_0_0_1_1">منصة لكل شيء</div>
-                        </div>
-                    </a>
-                    <div id="h_0_1">
-                        <button id="h_0_1_0" onclick="h_0_1_0FC()" onmouseover="h_0_1_0FV()" onmouseout="h_0_1_0FO()">
-                            <div id="h_0_1_0_0">
-                                <svg id="h_0_1_0_0_0" data-name="Component 1 – 1" width="27.202" height="30.14" viewBox="0 0 27.202 30.14">
-                                    <path id="Path_8" data-name="Path 8" d="M3258.083,571.477l-7.33-8.632a6.508,6.508,0,0,0-9.788,0l-7.329,8.632a5.714,5.714,0,0,0-1.378,3.7v9.667a6.1,6.1,0,0,0,6.272,5.92h14.659a6.1,6.1,0,0,0,6.271-5.92v-9.667A5.717,5.717,0,0,0,3258.083,571.477Zm-8.308,12.1a3.678,3.678,0,0,1-7.356,0v-1.548a3.678,3.678,0,0,1,7.356,0Z" transform="translate(-3232.258 -560.627)"/>
-                                </svg>
-                            </div>
-                            <div id="h_0_1_0_1">
-                                الرئيسة
-                            </div>
-                        </button>
-                        <button id="h_0_1_1" onclick="h_0_1_1FC()" onmouseover="h_0_1_1FV()" onmouseout="h_0_1_1FO()">
-                            <div id="h_0_1_1_0">
-                                <svg id="h_0_1_1_0_0" width="36.945" height="27.424" viewBox="0 0 36.945 27.424">
-                                    <g id="Group_8" data-name="Group 8" transform="translate(0 0)">
-                                        <rect id="Rectangle_13" data-name="Rectangle 13" width="8.205" height="26.182" rx="2.652" transform="translate(11.994 0.621)"/>
-                                        <rect id="Rectangle_24" data-name="Rectangle 24" width="8.205" height="26.182" rx="2.652" transform="translate(0 0.621)"/>
-                                        <rect id="Rectangle_14" data-name="Rectangle 14" width="8.205" height="26.182" rx="2.652" transform="translate(20.592 2.696) rotate(-19.185)"/>
-                                    </g>
-                                  </svg>
-                            </div>
-                            <div id="h_0_1_1_1">
-                                مكتبة المميز
-                            </div>
-                        </button>
-                        <button id="h_0_1_2" onclick="h_0_1_2FC()" onmouseover="h_0_1_2FV()" onmouseout="h_0_1_2FO()">
-                            <div id="h_0_1_2_0">
-                                <svg id="h_0_1_2_0_0" width="20.903" height="28.84" viewBox="0 0 20.903 28.84">
-                                    <path id="Path_9" data-name="Path 9" d="M3246.312,845.3h-9.3a5.8,5.8,0,0,0-5.8,5.8v17.24a5.8,5.8,0,0,0,5.8,5.8h9.3a5.8,5.8,0,0,0,5.8-5.8V851.1A5.8,5.8,0,0,0,3246.312,845.3Zm3.032,7.851a4.032,4.032,0,0,1-4.032,4.031h-7.3a4.031,4.031,0,0,1-4.031-4.031h0a4.031,4.031,0,0,1,4.031-4.032h7.3a4.032,4.032,0,0,1,4.032,4.032Z" transform="translate(-3231.209 -845.299)"/>
-                                </svg>                           
-                            </div>
-                            <div id="h_0_1_2_1">
-                                حساب المعدل
-                            </div>
-                        </button>
+                    <img src="./Media/Photos/Icon.png" alt="Logo" id="h_0_0"/>
+                    <div id="h_0_1">المميز والمتميز التعليمي</div>
+                    <div id="h_0_2">#نساعد_فنسعد</div>
+                </div>
+                <div id="h_1">
+                    <div id="h_1_0">
+                        <a id="h_1_0_0" href="./Index.html" target="_blank">
+                            <img id="h_1_0_0_0" src="./Media/Photos/Icon.png" alt="Logo"/>
+                        </a>
                     </div>
-                    <div id="h_0_2">
-                        <a id="h_0_2_0" onclick="h_0_2_0FC()">
-                            تواصل معنا
-                        </a>
-                        <a id="h_0_2_1" onclick="h_0_2_1FC()">
-                            من نحن؟
-                        </a>
+                    <div id="h_1_1">
+                        <a id="h_1_1_0" href="./Index.html#h" target="">الرئيسة</a>
+                        <a id="h_1_1_1" href="./Index.html#s0" target="">مكتبة المميز</a>
+                        <a id="h_1_1_2" href="./Index.html#s1" target="">الشروحات</a>
+                        <a id="h_1_1_3" href="./Index.html#s2" target="">بعد التخرج</a>
+                        <a id="h_1_1_4" href="./Index.html#s3" target="">حساب المعادلة</a>
+                    </div>
+                    <div id="h_1_2" onclick="h_1_2FC()" >
+                        <canvas id="h_1_2_0"></canvas>
+                        <span id="h_1_2_1">القائمة</span>
+                        <div id="h_1_2_2">
+                            <a id="h_1_2_2_0" onclick="h_1_2_2_0FC()" href="./Index.html#h" target="">الرئيسة</a>
+                            <a id="h_1_2_2_1" onclick="h_1_2_2_1FC()" href="./Index.html#s0" target="">مكتبة المميز</a>
+                            <a id="h_1_2_2_2" onclick="h_1_2_2_2FC()" href="./Index.html#s1" target="">الشروحات</a>
+                            <!--<a id="h_1_2_2_3" onclick="h_1_2_2_3FC()" href="./Index.html#s2" target="">بعد التخرج</a>-->
+                            <a id="h_1_2_2_4" onclick="h_1_2_2_4FC()" href="./Index.html#s3" target="">حساب المعادلة</a>
+                        </div>
+                    </div>
+                    <span id="h_1_3" onclick="h_1_3FC()">×</span>
+                </div>
+                <div id="h_2">
+                    <div id="h_2_0" onclick="h_2_0FC()" title="إلى الأعلى">
+                        <span id="h_2_0_0" class="glyphicon glyphicon-circle-arrow-up"></span>
                     </div>
                 </div>
             </header>
             <section class="s0" id="s0">
                 <div id="s0_0">
                     <div id="s0_0_0">
-                        <span id="s0_0_0_0">
-                            منصة المميز
-                        </span>
-                        <span id="s0_0_0_1">
-                             هي المنصة المقدمة من فريق المميز والمتميز التعليمي والتي تهدف إلى تلبية جميع احتياجاتك الدراسية الأساسية والتي تتعلق باستعدادك الجيد لاختبار القدرات العامة وما يشابهه. 
-                        </span>
+                        مكتبة المميز
                     </div>
-                    <div id="s0_0_1">
-                        كل ما عليك الآن هو اختيار وجهتك
-                    </div>
+                    <!--<div id="s0_0_1">
+                        <div id="s0_0_1_0">
+                            <div id="s0_0_1_0_0">
+                                <img id="s0_0_1_0_0_0" src="./Media/Photos/Logo.png" alt="Logo"/>
+                            </div>
+                        </div>
+                        <div id="s0_0_1_1">
+                            <div id="s0_0_1_1_0">كتاب الصاعد</div>
+                            <div id="s0_0_1_1_1">
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                            </div>
+                        </div>
+                    </div>-->
                     <div id="s0_0_2">
-                        <a id="s0_0_2_0" onmouseover="s0_0_2_0FV()" onmouseout="s0_0_2_0FO()">
+                        <div id="s0_0_2_0">
                             <div id="s0_0_2_0_0">
-                                <svg id="s0_0_2_0_0_0" data-name="Group 8" width="66.119" height="49.08" viewBox="0 0 66.119 49.08">
-                                    <rect id="Rectangle_13" data-name="Rectangle 13" width="14.683" height="46.857" rx="2.652" transform="translate(21.464 1.112)"/>
-                                    <rect id="Rectangle_24" data-name="Rectangle 24" width="14.683" height="46.857" rx="2.652" transform="translate(0 1.112)"/>
-                                    <rect id="Rectangle_14" data-name="Rectangle 14" width="14.683" height="46.857" rx="2.652" transform="translate(36.853 4.825) rotate(-19.185)"/>
-                                </svg>
-                                <div id="s0_0_2_0_0_1">
-                                    مكتبة المميز
+                                <span id="s0_0_2_0_0_0" class="glyphicon glyphicon-duplicate"></span>
+                            </div>
+                        </div>
+                        <div id="s0_0_2_1">
+                            <div id="s0_0_2_1_0">تجميعات الورقي</div>
+                            <div id="s0_0_2_1_1">
+                                <div id="s0_0_2_1_1_0">
+                                    <a id="s0_0_2_1_1_0_0" href="https://drive.google.com/open?id=1Sg4Pl6CnVh1puUulResGuF69WxG4SU6v" target="_blank">1441</a>
+                                    <a id="s0_0_2_1_1_0_1" href="https://drive.google.com/open?id=1X71x6j70zWnDazSfA1nCos2uvhoPUY7b" target="_blank">1440</a>
+                                    <a id="s0_0_2_1_1_0_2" href="https://drive.google.com/open?id=0BxnVlUbXYYMuV3hSSWl1SzNlcjg" target="_blank">1439</a>
+                                    <a id="s0_0_2_1_1_0_3" href="https://drive.google.com/open?id=0BxnVlUbXYYMuRXFRVUVqOUUtT0U" target="_blank">1438</a>
+                                    <a id="s0_0_2_1_1_0_4" href="https://drive.google.com/open?id=0BxnVlUbXYYMuVi1KNTJEY0VnU0U" target="_blank">1437</a>
+                                    <a id="s0_0_2_1_1_0_5" href="https://drive.google.com/open?id=0BxnVlUbXYYMufnVvQmktd2dLSUdLd05OOWZtZ3drUGZUdGNpeXhBTXVzMXlDSFh6czU4Tnc" target="_blank">1436</a>
+                                    <a id="s0_0_2_1_1_0_6" href="https://drive.google.com/open?id=0BxnVlUbXYYMufmV5cldYMWpqQmdzbHZ1RWdhS2dYMTktQ1JuaHpxdGNIQzhSVUtuT1RGdDg" target="_blank">1435</a>
+                                </div>
+                                <div id="s0_0_2_1_1_1">
+                                    <a id="s0_0_2_1_1_1_0" href="https://drive.google.com/open?id=0BxnVlUbXYYMuOXBnWU1DNkktQTg" target="_blank">المزيد</a>
                                 </div>
                             </div>
-                            <div id="s0_0_2_0_1">
-                                يمكنك الوصول لجميع الملفات التي تحتاجها لبدء الاستعداد لاختبارك من تجميعات قدرات، وتحصيلي، وكتب إلكترونية مجانية.
+                        </div>
+                    </div>
+                    <div id="s0_0_3">
+                        <div id="s0_0_3_0">
+                            <div id="s0_0_3_0_0">
+                                <i id="s0_0_3_0_0_0" class="material-icons">laptop</i>
                             </div>
-                        </a>
-                        <a id="s0_0_2_1" onmouseover="s0_0_2_1FV()" onmouseout="s0_0_2_1FO()">
-                            <div id="s0_0_2_1_0">
-                                <svg id="s0_0_2_1_0_0" width="38.593" height="53.247" viewBox="0 0 38.593 53.247">
-                                    <path id="Path_9" data-name="Path 9" d="M3259.094,845.3h-17.176a10.708,10.708,0,0,0-10.708,10.708v31.83a10.708,10.708,0,0,0,10.708,10.708h17.176a10.708,10.708,0,0,0,10.708-10.708v-31.83A10.708,10.708,0,0,0,3259.094,845.3Zm5.6,14.5a7.443,7.443,0,0,1-7.443,7.442h-13.484a7.443,7.443,0,0,1-7.444-7.442h0a7.443,7.443,0,0,1,7.444-7.443h13.484a7.443,7.443,0,0,1,7.443,7.443Z" transform="translate(-3231.209 -845.299)"/>
-                                </svg>
-                                <div id="s0_0_2_1_0_1">
-                                    حساب المعدل
-                                </div>                                 
+                        </div>
+                        <div id="s0_0_3_1">
+                            <div id="s0_0_3_1_0">تجميعات المحوسب</div>
+                            <div id="s0_0_3_1_1">
+                                <div id="s0_0_3_1_1_0">
+                                    <a id="s0_0_3_1_1_0_0" href="https://drive.google.com/open?id=1VYo_5GT3ixjipogw9dYQJLahdFHYYegq" target="_blank">الـ85</a>
+                                    <a id="s0_0_3_1_1_0_1" href="https://drive.google.com/open?id=1QpJKIeVpqKFx9OqH41ergS38Rjt9uUtX" target="_blank">الـ65</a>
+                                    <a id="s0_0_3_1_1_0_2" href="https://drive.google.com/open?id=1mi_zLdy84SjMTTHN3nvLJbfZa5myj9tM" target="_blank">الـ50</a>
+                                    <a id="s0_0_3_1_1_0_3" href="https://drive.google.com/open?id=0BxnVlUbXYYMuVl9YSjBlM0hRNGs" target="_blank">الـ30</a>
+                                </div>
+                                <div id="s0_0_3_1_1_1">
+                                    <a id="s0_0_3_1_1_1_0" href="https://drive.google.com/open?id=0BxnVlUbXYYMuaGlxcG5MbGxRQUU" target="_blank">المزيد</a>
+                                </div>
                             </div>
-                            <div id="s0_0_2_1_1">
-                                احسب معدلك النهائي في الشهادة المعادلة المصرية، من خلال برنامج سهل وبسيط.
+                        </div>
+                    </div>
+                    <div id="s0_0_4">
+                        <div id="s0_0_4_0">
+                            <div id="s0_0_4_0_0">
+                                <span id="s0_0_4_0_0_0" class="glyphicon glyphicon-book"></span>
                             </div>
-                        </a>
+                        </div>
+                        <div id="s0_0_4_1">
+                            <div id="s0_0_4_1_0">تجميعات التحصيلي</div>
+                            <div id="s0_0_4_1_1">
+                                <div id="s0_0_4_1_1_0">
+                                    <a id="s0_0_4_1_1_0_0" href="https://drive.google.com/open?id=15fBgtlwPLe80FLk_iP975FWRlwSOwMKG" target="_blank">1440</a>
+                                    <a id="s0_0_4_1_1_0_1" href="https://drive.google.com/open?id=1PBpYeZFFqwkby16ky3b9O5i6rhpw38kJ" target="_blank">1439</a>
+                                    <a id="s0_0_4_1_1_0_2" href="https://drive.google.com/open?id=1m77dAfTtZbI7d-0T5c3Cuv5S6HzsI75E" target="_blank">1438</a>
+                                    <a id="s0_0_4_1_1_0_3" href="https://drive.google.com/open?id=19S1KS7UKOTD6AglZWNtIfFGGtkpxwnyo" target="_blank">1437</a>
+                                </div>
+                                <div id="s0_0_4_1_1_1">
+                                    <a id="s0_0_4_1_1_1_0" href="https://drive.google.com/open?id=1kE8by1IO2lZc226zfiZQB3iN3sLu-LG6" target="_blank">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="s0_0_5">
+                        <div id="s0_0_5_0">
+                            <div id="s0_0_5_0_0">
+                                <span id="s0_0_5_0_0_0" class="glyphicon glyphicon-book"></span>
+                            </div>
+                        </div>
+                        <div id="s0_0_5_1">
+                            <div id="s0_0_5_1_0">المدرسة</div>
+                            <div id="s0_0_5_1_1">
+                                <div id="s0_0_5_1_1_0">
+                                    <div id="s0_0_5_1_1_0_0">أول ثانوي</div>
+                                    <div id="s0_0_5_1_1_0_1">
+                                        <a id="s0_0_5_1_1_0_1_0" href="https://drive.google.com/open?id=0BxnVlUbXYYMua0NlX0JEVHNjNkk" target="">رياضيات</a>
+                                        <a id="s0_0_5_1_1_0_1_1" href="https://drive.google.com/open?id=0BxnVlUbXYYMuT3dFa3lINDVvX2s" target="">أحياء</a>
+                                        <a id="s0_0_5_1_1_0_1_2" href="https://drive.google.com/open?id=0BxnVlUbXYYMuWFdFd04yX19idms" target="">كيمياء</a>
+                                        <a id="s0_0_5_1_1_0_1_3" href="https://drive.google.com/open?id=0BxnVlUbXYYMuZVdEaGhZR2lxSHcs" target="">فيزياء</a>
+                                    </div>
+                                    <div id="s0_0_5_1_1_0_2">
+                                        <a id="s0_0_5_1_1_0_2_0" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_0_2_1" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_0_2_2" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_0_2_3" href="" target=""></a>
+                                    </div>
+                                </div>
+                                <div id="s0_0_5_1_1_1">
+                                    <div id="s0_0_5_1_1_1_0">ثاني ثانوي</div>
+                                    <div id="s0_0_5_1_1_1_1">
+                                        <a id="s0_0_5_1_1_1_1_0" href="https://drive.google.com/open?id=0BxnVlUbXYYMuakRlNWMtakQyUGs" target="">رياضيات</a>
+                                        <a id="s0_0_5_1_1_1_1_1" href="https://drive.google.com/open?id=0BxnVlUbXYYMuNWlaVHBFWHZnSWs" target="">أحياء</a>
+                                        <a id="s0_0_5_1_1_1_1_2" href="https://drive.google.com/open?id=0BxnVlUbXYYMuSmk2Mm50bUF6WmM" target="">كيمياء</a>
+                                        <a id="s0_0_5_1_1_1_1_3" href="https://drive.google.com/open?id=0BxnVlUbXYYMuVHgzb0o0aTgtNHc" target="">فيزياء</a>
+                                    </div>
+                                    <div id="s0_0_5_1_1_1_2">
+                                        <a id="s0_0_5_1_1_1_2_0" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_1_2_1" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_1_2_2" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_1_2_3" href="" target=""></a>
+                                    </div>
+                                </div>
+                                <div id="s0_0_5_1_1_2">
+                                    <div id="s0_0_5_1_1_2_0">ثالث ثانوي</div>
+                                    <div id="s0_0_5_1_1_2_1">
+                                        <a id="s0_0_5_1_1_2_1_0" href="https://drive.google.com/open?id=0BxnVlUbXYYMuTXpHNk9mUktqVkE" target="">رياضيات</a>
+                                        <a id="s0_0_5_1_1_2_1_1" href="https://drive.google.com/open?id=0BxnVlUbXYYMuOEswUVNodHhKMW8" target="">أحياء</a>
+                                        <a id="s0_0_5_1_1_2_1_2" href="https://drive.google.com/open?id=0BxnVlUbXYYMua042VEdUUGFLUEk" target="">كيمياء</a>
+                                        <a id="s0_0_5_1_1_2_1_3" href="https://drive.google.com/open?id=0BxnVlUbXYYMuUXY2OEJrS090ZXc" target="">فيزياء</a>
+                                    </div>
+                                    <div id="s0_0_5_1_1_2_2">
+                                        <a id="s0_0_5_1_1_2_2_0" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_2_2_1" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_2_2_2" href="" target=""></a>
+                                        <a id="s0_0_5_1_1_2_2_3" href="" target=""></a>
+                                    </div>
+                                </div>
+                                <div id="s0_0_5_1_1_3">
+                                    <a id="s0_0_5_1_1_3_0" href="https://drive.google.com/open?id=0BxnVlUbXYYMuRDBoSEZuVzV6MW8" target="_blank">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="s0" id="s1">
+            <section class="s1" id="s1">
                 <div id="s1_0">
                     <div id="s1_0_0">
-                        <div id="s1_0_0_0">
-                            <svg id="s1_0_0_0_0" data-name="Group 8" width="66.119" height="49.08" viewBox="0 0 66.119 49.08">
-                                <rect id="Rectangle_13" data-name="Rectangle 13" width="14.683" height="46.857" rx="2.652" transform="translate(21.464 1.112)"/>
-                                <rect id="Rectangle_24" data-name="Rectangle 24" width="14.683" height="46.857" rx="2.652" transform="translate(0 1.112)"/>
-                                <rect id="Rectangle_14" data-name="Rectangle 14" width="14.683" height="46.857" rx="2.652" transform="translate(36.853 4.825) rotate(-19.185)"/>
-                            </svg>
-                            <span id="s1_0_0_0_1">
-                                مكتبة المميز
-                            </span>
-                        </div>
-                        <div id="s1_0_0_1">
-                            <span id="s1_0_0_1_0">
-                                يمكنك الوصول لجميع الملفات التي تحتاجها لبدء الاستعداد لاختبارك من تجميعات قدرات، وتحصيلي، وكتب إلكترونية مجانية.
-                            </span>
-                            <span id="s1_0_0_1_1">
-                                إذا لم تجد ما تبحث عنه هنا قم بالبحث في المكتبة العامة أو من خلال قناة المميز التعليمية
-                            </span>
-                        </div>
+                        الشروحات
                     </div>
                     <div id="s1_0_1">
                         <div id="s1_0_1_0">
-                            <div id="s1_0_1_0_0" onclick="s1_0_1_0_0FC()">
-                                القدرات ورقي
-                            </div>
-                            <div id="s1_0_1_0_1" onclick="s1_0_1_0_1FC()">
-                                القدرات محوسب
-                            </div>
-                            <div id="s1_0_1_0_2" onclick="s1_0_1_0_2FC()">
-                                التحصيلي
-                            </div>
-                            <div id="s1_0_1_0_3" onclick="s1_0_1_0_3FC()">
-                                شروحات القدرات
-                            </div>
-                            <div id="s1_0_1_0_4" onclick="s1_0_1_0_4FC()">
-                                ...
+                            <div id="s1_0_1_0_0">
+                                <span id="s1_0_1_0_0_0" class="glyphicon glyphicon-facetime-video"></span>
                             </div>
                         </div>
-                        <!--<form id="s1_0_1_1">
-                            <input id="s1_0_1_1_0" placeholder="قناة المميز التعليمية"/>
-                            <input id="s1_0_1_1_1" placeholder="أبحث في المكتبة العامة"/>
-                        </div>-->
-                    </div>
-                    <div id="s1_0_2">
-                        <div id="s1_0_2_0">
-                            <div id="s1_0_2_0_0">
-                                <div id="s1_0_2_0_0_0" onclick="s1_0_2_0_0_0FC(1)">‹</div>
-                            </div>
-                            <div id="s1_0_2_0_1">
-                                <div id="s1_0_2_0_1_0">
-                                    <span id="s1_0_2_0_1_0_0">
-                                        <div id="s1_0_2_0_1_0_0_0">
-                                            <div id="s1_0_2_0_1_0_0_0_0"></div>
-                                            <div id="s1_0_2_0_1_0_0_0_1">1440 الفترة الثانية القسم الكمي</div>
-                                        </div>
-                                    </span>
-                                    <span id="s1_0_2_0_1_0_1">
-                                        <div id="s1_0_2_0_1_0_1_0">
-                                            <div id="s1_0_2_0_1_0_1_0_0"></div>
-                                            <div id="s1_0_2_0_1_0_1_0_1">1441 الفترة الثانية القسم الكمي</div>
-                                        </div>
-                                    </span>
-                                    <span id="s1_0_2_0_1_0_2">
-                                        <div id="s1_0_2_0_1_0_2_0">
-                                            <div id="s1_0_2_0_1_0_2_0_0"></div>
-                                            <div id="s1_0_2_0_1_0_2_0_1">1442 الفترة الثانية القسم الكمي</div>
-                                        </div>
-                                    </span>
-                                    <span id="s1_0_2_0_1_0_3">
-                                        <div id="s1_0_2_0_1_0_3_0">
-                                            <div id="s1_0_2_0_1_0_3_0_0"></div>
-                                            <div id="s1_0_2_0_1_0_3_0_1">1443 الفترة الثانية القسم الكمي</div>
-                                        </div>
-                                    </span>
-                                    <span id="s1_0_2_0_1_0_4">
-                                        <div id="s1_0_2_0_1_0_4_0">
-                                            <div id="s1_0_2_0_1_0_4_0_0"></div>
-                                            <div id="s1_0_2_0_1_0_4_0_1">1444 الفترة الثانية القسم الكمي</div>
-                                        </div>
-                                    </span>
+                        <div id="s1_0_1_1">
+                            <div id="s1_0_1_1_0">الشروحات</div>
+                            <div id="s1_0_1_1_1">
+                                <div id="s1_0_1_1_1_0">
+                                    <a id="s1_0_1_1_1_0_0" href="https://www.youtube.com/watch?v=mgg-4xyoyVY&list=PLk8gRNYeIghKdQbSyKd8ocGf4ybMSnNsN" target="_blank">شروحات تجميع (1440) - الفترة الأولى - كمي - جبر وحياتية-</a>
+                                    <a id="s1_0_1_1_1_0_1" href="https://www.youtube.com/watch?v=6X-aaYS5zO8&list=PLk8gRNYeIghInU0vWP0BSjns4f5lOMbO9" target="_blank">حصص المراجعة قبل الورقي</a>
+                                    <a id="s1_0_1_1_1_0_2" href="https://www.youtube.com/watch?v=dT3C5JPE2wo&list=PLk8gRNYeIghLppquQ5Be-MpkxIXMg0qIu" target="_blank">شروحات تجميع (1441) - الفترة الأولى - القسم الكمي</a>
+                                    <a id="s1_0_1_1_1_0_3" href="https://www.youtube.com/watch?v=N1WW1YI9LS4&list=PLk8gRNYeIghL6LBWZwvSO9bUcLVBXJDbE" target="_blank">استراتيجيات الحل</a>
+                                    <a id="s1_0_1_1_1_0_4" href="https://www.youtube.com/watch?v=agypRVtNqYM&list=PLk8gRNYeIghL5hmONMgjBJEN4Wdx5ap-1" target="_blank">عبارة في حكاية</a>
+                                    <a id="s1_0_1_1_1_0_5" href="https://www.youtube.com/watch?v=v_Fsve2gI24&list=PLk8gRNYeIghLgnzSzxYL2NbXRbfQ7w4Be" target="_blank">التعامل مع حساب مركز قياس</a>
+                                    <a id="s1_0_1_1_1_0_6" href="https://www.youtube.com/watch?v=OroleBKc0hQ&list=PLk8gRNYeIghJqhMDB5pyFNfCk6LjCU-Jl" target="_blank">شرح كمي تجميع 39-2</a>
+                                    <a id="s1_0_1_1_1_0_7" href="https://www.youtube.com/watch?v=zQ8_4v9I9aw&list=PLk8gRNYeIghL03Eh0M0F4YAVeBCa9SVT5" target="_blank">شرح كمي تجميع 39-1</a>
                                 </div>
-                                <div id="s1_0_2_0_1_1">
-                                    
-                                </div>
-                                <div id="s1_0_2_0_1_2">
-                                    
-                                </div>
-                                <div id="s1_0_2_0_1_3">
-                                    
-                                </div>
-                            </div>
-                            <div id="s1_0_2_0_2">
-                                <div id="s1_0_2_0_2_0" onclick="s1_0_2_0_2_0FC(-1)">›</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="s0" id="s2">
+            <!--<section class="s2" id="s2">
                 <div id="s2_0">
                     <div id="s2_0_0">
-                        <div id="s2_0_0_0">
-                            <svg id="s2_0_0_0_0" width="43.792" height="60.42" viewBox="0 0 43.792 60.42">
-                                <path id="Path_25" data-name="Path 25" d="M3262.851,845.3H3243.36a12.151,12.151,0,0,0-12.15,12.151v36.118a12.151,12.151,0,0,0,12.15,12.151h19.491A12.151,12.151,0,0,0,3275,893.568V857.45A12.151,12.151,0,0,0,3262.851,845.3Zm6.353,16.448a8.447,8.447,0,0,1-8.448,8.445h-15.3a8.445,8.445,0,0,1-8.446-8.445h0a8.445,8.445,0,0,1,8.446-8.446h15.3a8.447,8.447,0,0,1,8.448,8.446Z" transform="translate(-3231.209 -845.299)" fill="#6400ff"/>
-                            </svg>
-                            <span id="s2_0_0_0_1">
-                                حساب المعدل
-                            </span>
-                        </div>
-                        <div id="s2_0_0_1">
-                            <span id="s2_0_0_1_0">
-                                احسب معدلك النهائي في الشهادة المعادلة المصرية، من خلال برنامج سهل وبسيط.
-                            </span>
-                            <span id="s2_0_0_1_1">
-                                لا تنسَ اختيار التفضيلات التي تخصك قبل وضع الدرجات داخل الجدول
-                            </span>
-                        </div>
+                        بعد التخرج
                     </div>
                     <div id="s2_0_1">
                         <div id="s2_0_1_0">
                             <div id="s2_0_1_0_0">
-                                <div id="s2_0_1_0_0_0" onclick="s2_0_1_0_0FC()">
-                                    الفصلي
-                                </div>
-                                <div id="s2_0_1_0_0_1" onclick="s2_0_1_0_1FC()">
-                                    مقررات
-                                </div>
+                                <img id="s2_0_1_0_0_0" src="./Media/Photos/Logo.png" alt="Logo"/>
                             </div>
                         </div>
                         <div id="s2_0_1_1">
-                            <div id="s2_0_1_1_0">
-                                تنسيق 2019
-                            </div>
-                            <div id="s2_0_1_1_1" onclick="s2_0_1_1_1FC()">
-                                تعبئة / تفريغ جميع الخانات
+                            <div id="s2_0_1_1_0">خطوات توثيق الشهادة</div>
+                            <div id="s2_0_1_1_1">
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
                             </div>
                         </div>
                     </div>
                     <div id="s2_0_2">
                         <div id="s2_0_2_0">
-                            <form id="s2_0_2_0_0">
-                                <div id="s2_0_2_0_0_0">
-                                    <span id="s2_0_2_0_0_0_0">اسم المادة</span>
-                                    <span id="s2_0_2_0_0_0_1">1</span>
-                                    <span id="s2_0_2_0_0_0_2">2</span>
-                                    <span id="s2_0_2_0_0_0_3">3</span>
-                                    <span id="s2_0_2_0_0_0_4">4</span>
-                                    <span id="s2_0_2_0_0_0_5">5</span>
-                                    <span id="s2_0_2_0_0_0_6">6</span>
-                                </div>
-                                <div id="s2_0_2_0_0_1">
-                                    <span id="s2_0_2_0_0_1_0">الرياضيات</span>
-                                    <input id="s2_0_2_0_0_1_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_1_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_1_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_1_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_1_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_1_6" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_2">
-                                    <span id="s2_0_2_0_0_2_0">الإنجليزي</span>
-                                    <input id="s2_0_2_0_0_2_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_2_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_2_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_2_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_2_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_2_6" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_3">
-                                    <span id="s2_0_2_0_0_3_0">الأحياء</span>
-                                    <input id="s2_0_2_0_0_3_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_3_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_3_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_3_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_3_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_3_6" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_4">
-                                    <span id="s2_0_2_0_0_4_0">الكيمياء</span>
-                                    <input id="s2_0_2_0_0_4_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_4_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_4_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_4_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_4_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_4_6" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_5">
-                                    <span id="s2_0_2_0_0_5_0">الفيزياء</span>
-                                    <input id="s2_0_2_0_0_5_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_5_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_5_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_5_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_5_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_5_6" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_6">
-                                    <span id="s2_0_2_0_0_6_0">علم الأرض</span>
-                                    <input id="s2_0_2_0_0_6_1" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_0_0_6_2" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_0_0_6_3" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_0_0_6_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_6_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_6_6" type="text" maxlength="3" disabled/>
-                                </div>
-                                <div id="s2_0_2_0_0_7">
-                                    <span id="s2_0_2_0_0_7_0">العربي</span>
-                                    <input id="s2_0_2_0_0_7_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_7_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_7_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_7_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_7_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_7_6" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_8">
-                                    <span id="s2_0_2_0_0_8_0">الحاسب الآلي</span>
-                                    <input id="s2_0_2_0_0_8_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_8_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_8_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_8_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_8_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_8_6" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_9">
-                                    <span id="s2_0_2_0_0_9_0">الإجتماعيات</span>
-                                    <input id="s2_0_2_0_0_9_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_9_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_0_0_9_3" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_0_0_9_4" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_0_0_9_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_0_0_9_6" type="text" maxlength="3" disabled/>
-                                </div>
-                                <div id="s2_0_2_0_0_10">
-                                    <span id="s2_0_2_0_0_10_0">القدرات</span>
-                                    <input id="s2_0_2_0_0_10_1" type="text" maxlength="3"/>
-                                </div>
-                                <div id="s2_0_2_0_0_11">
-                                    <button id="s2_0_2_0_0_11_0">
-                                        احسب
-                                    </button>
-                                </div>
-                            </form>
+                            <div id="s2_0_2_0_0">
+                                <img id="s2_0_2_0_0_0" src="./Media/Photos/Logo.png" alt="Logo"/>
+                            </div>
                         </div>
                         <div id="s2_0_2_1">
-                            <form id="s2_0_2_1_0">
-                                <div id="s2_0_2_1_0_0">
-                                    <span id="s2_0_2_1_0_0_0">اسم المادة</span>
-                                    <span id="s2_0_2_1_0_0_1">1</span>
-                                    <span id="s2_0_2_1_0_0_2">2</span>
-                                    <span id="s2_0_2_1_0_0_3">3</span>
-                                    <span id="s2_0_2_1_0_0_4">4</span>
-                                    <span id="s2_0_2_1_0_0_5">5</span>
-                                    <span id="s2_0_2_1_0_0_6">6</span>
+                            <div id="s2_0_2_1_0">الكليات الحكومية</div>
+                            <div id="s2_0_2_1_1">
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="s2_0_3">
+                        <div id="s2_0_3_0">
+                            <div id="s2_0_3_0_0">
+                                <img id="s2_0_3_0_0_0" src="./Media/Photos/Logo.png" alt="Logo"/>
+                            </div>
+                        </div>
+                        <div id="s2_0_3_1">
+                            <div id="s2_0_3_1_0">الكليات الخاصة</div>
+                            <div id="s2_0_3_1_1">
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="s2_0_4">
+                        <div id="s2_0_4_0">
+                            <div id="s2_0_4_0_0">
+                                <img id="s2_0_4_0_0_0" src="./Media/Photos/Logo.png" alt="Logo"/>
+                            </div>
+                        </div>
+                        <div id="s2_0_4_1">
+                            <div id="s2_0_4_1_0">المعاهد</div>
+                            <div id="s2_0_4_1_1">
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                                الوصف<br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>-->
+            <section class="s3" id="s3">
+                <div id="s3_0">
+                    <div id="s3_0_0">
+                        حساب المعادلة
+                    </div>
+                    <div id="s3_0_1">
+                        <div id="s3_0_1_0">
+                            <div id="s3_0_1_0_0">
+                                <div id="s3_0_1_0_0_0">
+                                    <span id="s3_0_1_0_0_0_0" onclick="s3_0_1_0_0_0_0FC()" class="glyphicon glyphicon-arrow-right"></span>
                                 </div>
-                                <div id="s2_0_2_1_0_1">
-                                    <span id="s2_0_2_1_0_1_0">الرياضيات</span>
-                                    <input id="s2_0_2_1_0_1_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_1_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_1_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_1_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_1_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_1_6" type="text" maxlength="3"/>
+                                <div id="s3_0_1_0_0_1">فصلي</div>
+                                <div id="s3_0_1_0_0_2">
+                                    <span id="s3_0_1_0_0_2_0" onclick="s3_0_1_0_0_2_0FC()" class="glyphicon glyphicon-arrow-left"></span>
                                 </div>
-                                <div id="s2_0_2_1_0_2">
-                                    <span id="s2_0_2_1_0_2_0">الإنجليزي</span>
-                                    <input id="s2_0_2_1_0_2_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_2_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_2_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_2_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_2_5" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_2_6" type="text" maxlength="3" disabled/>
+                            </div>
+                            <form id="s3_0_1_0_1">
+                                <div id="s3_0_1_0_1_0">
+                                    <span id="s3_0_1_0_1_0_0"></span>
+                                    <span id="s3_0_1_0_1_0_1">1</span>
+                                    <span id="s3_0_1_0_1_0_2">2</span>
+                                    <span id="s3_0_1_0_1_0_3">3</span>
+                                    <span id="s3_0_1_0_1_0_4">4</span>
+                                    <span id="s3_0_1_0_1_0_5">5</span>
+                                    <span id="s3_0_1_0_1_0_6">6</span>
                                 </div>
-                                <div id="s2_0_2_1_0_3">
-                                    <span id="s2_0_2_1_0_3_0">الأحياء</span>
-                                    <input id="s2_0_2_1_0_3_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_3_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_3_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_3_4" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_3_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_3_6" type="text" maxlength="3" disabled/>
+                                <div id="s3_0_1_0_1_1">
+                                    <span id="s3_0_1_0_1_1_0">الرياضيات</span>
+                                    <input id="s3_0_1_0_1_1_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_1_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_1_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_1_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_1_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_1_6" type="text" maxlength="3" placeholder="الدرجة"/>
                                 </div>
-                                <div id="s2_0_2_1_0_4">
-                                    <span id="s2_0_2_1_0_4_0">الكيمياء</span>
-                                    <input id="s2_0_2_1_0_4_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_4_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_4_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_4_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_4_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_4_6" type="text" maxlength="3" disabled/>
+                                <div id="s3_0_1_0_1_2">
+                                    <span id="s3_0_1_0_1_2_0">الإنجليزي</span>
+                                    <input id="s3_0_1_0_1_2_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_2_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_2_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_2_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_2_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_2_6" type="text" maxlength="3" placeholder="الدرجة"/>
                                 </div>
-                                <div id="s2_0_2_1_0_5">
-                                    <span id="s2_0_2_1_0_5_0">الفيزياء</span>
-                                    <input id="s2_0_2_1_0_5_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_5_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_5_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_5_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_5_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_5_6" type="text" maxlength="3" disabled/>
+                                <div id="s3_0_1_0_1_3">
+                                    <span id="s3_0_1_0_1_3_0">الأحياء</span>
+                                    <input id="s3_0_1_0_1_3_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_3_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_3_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_3_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_3_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_3_6" type="text" maxlength="3" placeholder="الدرجة"/>
                                 </div>
-                                <div id="s2_0_2_1_0_6">
-                                    <span id="s2_0_2_1_0_6_0">علم البيئة</span>
-                                    <input id="s2_0_2_1_0_6_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_6_2" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_6_3" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_6_4" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_6_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_6_6" type="text" maxlength="3" disabled/>
+                                <div id="s3_0_1_0_1_4">
+                                    <span id="s3_0_1_0_1_4_0">الكيمياء</span>
+                                    <input id="s3_0_1_0_1_4_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_4_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_4_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_4_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_4_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_4_6" type="text" maxlength="3" placeholder="الدرجة"/>
                                 </div>
-                                <div id="s2_0_2_1_0_7">
-                                    <span id="s2_0_2_1_0_7_0">العربي</span>
-                                    <input id="s2_0_2_1_0_7_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_7_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_7_3" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_7_4" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_7_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_7_6" type="text" maxlength="3" disabled/>
+                                <div id="s3_0_1_0_1_5">
+                                    <span id="s3_0_1_0_1_5_0">الفيزياء</span>
+                                    <input id="s3_0_1_0_1_5_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_5_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_5_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_5_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_5_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_5_6" type="text" maxlength="3" placeholder="الدرجة"/>
                                 </div>
-                                <div id="s2_0_2_1_0_8">
-                                    <span id="s2_0_2_1_0_8_0">الحاسب الآلي</span>
-                                    <input id="s2_0_2_1_0_8_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_8_2" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_8_3" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_8_4" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_8_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_8_6" type="text" maxlength="3" disabled/>
+                                <div id="s3_0_1_0_1_6">
+                                    <span id="s3_0_1_0_1_6_0">علم الأرض</span>
+                                    <input id="s3_0_1_0_1_6_1" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_0_1_6_2" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_0_1_6_3" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_0_1_6_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_6_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_6_6" type="text" maxlength="3" disabled/>
                                 </div>
-                                <div id="s2_0_2_1_0_9">
-                                    <span id="s2_0_2_1_0_9_0">الإجتماعيات</span>
-                                    <input id="s2_0_2_1_0_9_1" type="text" maxlength="3"/>
-                                    <input id="s2_0_2_1_0_9_2" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_9_3" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_9_4" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_9_5" type="text" maxlength="3" disabled/>
-                                    <input id="s2_0_2_1_0_9_6" type="text" maxlength="3" disabled/>
+                                <div id="s3_0_1_0_1_7">
+                                    <span id="s3_0_1_0_1_7_0">العربي</span>
+                                    <input id="s3_0_1_0_1_7_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_7_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_7_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_7_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_7_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_7_6" type="text" maxlength="3" placeholder="الدرجة"/>
                                 </div>
-                                <div id="s2_0_2_1_0_10">
-                                    <span id="s2_0_2_1_0_10_0">القدرات</span>
-                                    <input id="s2_0_2_1_0_10_1" type="text" maxlength="3"/>
+                                <div id="s3_0_1_0_1_8">
+                                    <span id="s3_0_1_0_1_8_0">الحاسب الآلي</span>
+                                    <input id="s3_0_1_0_1_8_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_8_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_8_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_8_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_8_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_8_6" type="text" maxlength="3" placeholder="الدرجة"/>
                                 </div>
-                                <div id="s2_0_2_1_0_11">
-                                    <button id="s2_0_2_1_0_11_0">
-                                        احسب
-                                    </button>
+                                <div id="s3_0_1_0_1_9">
+                                    <span id="s3_0_1_0_1_9_0">الإجتماعيات</span>
+                                    <input id="s3_0_1_0_1_9_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_9_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_0_1_9_3" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_0_1_9_4" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_0_1_9_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_0_1_9_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_0_1_10">
+                                    <span id="s3_0_1_0_1_10_0">القدرات</span>
+                                    <input id="s3_0_1_0_1_10_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                </div>
+                                <div id="s3_0_1_0_1_11">
+                                    <span id="s3_0_1_0_1_11_0">حساب الدرجة</span>
+                                    <div id="s3_0_1_0_1_11_1" onclick="s3_0_1_0_1_11_1FC()">تفريغ</div>
+                                    <div id="s3_0_1_0_1_11_2" onclick="s3_0_1_0_1_11_2FC()">ولد</div>
+                                    <div id="s3_0_1_0_1_11_3" onclick="s3_0_1_0_1_11_3FC()">بنت</div>
+                                    <div id="s3_0_1_0_1_11_4" onclick="s3_0_1_0_1_11_4FC()" style="display: block;">حساب المعادلة</div>
+                                    <div id="s3_0_1_0_1_11_5" onclick="s3_0_1_0_1_11_5FC()" style="display: none;">حساب المعادلة</div>
+                                </div>
+                                <div id="s3_0_1_0_1_12">
+                                    <span id="s3_0_1_0_1_12_0">الناتج</span>
+                                    <div id="s3_0_1_0_1_12_1">0</div>
+                                    <div id="s3_0_1_0_1_12_2">410</div>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="s3_0_1_1" style="display: none;">
+                            <div id="s3_0_1_1_0">
+                                <div id="s3_0_1_1_0_0">
+                                    <span id="s3_0_1_1_0_0_0" onclick="s3_0_1_1_0_0_0FC()" class="glyphicon glyphicon-arrow-right"></span>
+                                </div>
+                                <div id="s3_0_1_1_0_1">مقررات</div>
+                                <div id="s3_0_1_1_0_2">
+                                    <span id="s3_0_1_1_0_2_0" onclick="s3_0_1_1_0_2_0FC()" class="glyphicon glyphicon-arrow-left"></span>
+                                </div>
+                            </div>
+                            <form id="s3_0_1_1_1">
+                                <div id="s3_0_1_1_1_0">
+                                    <span id="s3_0_1_1_1_0_0"></span>
+                                    <span id="s3_0_1_1_1_0_1">1</span>
+                                    <span id="s3_0_1_1_1_0_2">2</span>
+                                    <span id="s3_0_1_1_1_0_3">3</span>
+                                    <span id="s3_0_1_1_1_0_4">4</span>
+                                    <span id="s3_0_1_1_1_0_5">5</span>
+                                    <span id="s3_0_1_1_1_0_6">6</span>
+                                </div>
+                                <div id="s3_0_1_1_1_1">
+                                    <span id="s3_0_1_1_1_1_0">الرياضيات</span>
+                                    <input id="s3_0_1_1_1_1_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_1_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_1_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_1_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_1_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_1_6" type="text" maxlength="3" placeholder="الدرجة"/>
+                                </div>
+                                <div id="s3_0_1_1_1_2">
+                                    <span id="s3_0_1_1_1_2_0">الإنجليزي</span>
+                                    <input id="s3_0_1_1_1_2_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_2_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_2_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_2_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_2_5" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_2_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_3">
+                                    <span id="s3_0_1_1_1_3_0">الأحياء</span>
+                                    <input id="s3_0_1_1_1_3_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_3_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_3_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_3_4" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_3_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_3_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_4">
+                                    <span id="s3_0_1_1_1_4_0">الكيمياء</span>
+                                    <input id="s3_0_1_1_1_4_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_4_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_4_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_4_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_4_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_4_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_5">
+                                    <span id="s3_0_1_1_1_5_0">الفيزياء</span>
+                                    <input id="s3_0_1_1_1_5_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_5_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_5_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_5_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_5_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_5_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_6">
+                                    <span id="s3_0_1_1_1_6_0">علم البيئة</span>
+                                    <input id="s3_0_1_1_1_6_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_6_2" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_6_3" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_6_4" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_6_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_6_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_7">
+                                    <span id="s3_0_1_1_1_7_0">العربي</span>
+                                    <input id="s3_0_1_1_1_7_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_7_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_7_3" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_7_4" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_7_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_7_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_8">
+                                    <span id="s3_0_1_1_1_8_0">الحاسب الآلي</span>
+                                    <input id="s3_0_1_1_1_8_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_8_2" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_8_3" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_8_4" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_8_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_8_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_9">
+                                    <span id="s3_0_1_1_1_9_0">الإجتماعيات</span>
+                                    <input id="s3_0_1_1_1_9_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                    <input id="s3_0_1_1_1_9_2" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_9_3" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_9_4" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_9_5" type="text" maxlength="3" disabled/>
+                                    <input id="s3_0_1_1_1_9_6" type="text" maxlength="3" disabled/>
+                                </div>
+                                <div id="s3_0_1_1_1_10">
+                                    <span id="s3_0_1_1_1_10_0">القدرات</span>
+                                    <input id="s3_0_1_1_1_10_1" type="text" maxlength="3" placeholder="الدرجة"/>
+                                </div>
+                                <div id="s3_0_1_1_1_11">
+                                    <span id="s3_0_1_1_1_11_0">حساب الدرجة</span>
+                                    <div id="s3_0_1_1_1_11_1" onclick="s3_0_1_1_1_11_1FC()">تفريغ</div>
+                                    <div id="s3_0_1_1_1_11_2" onclick="s3_0_1_1_1_11_2FC()">ولد</div>
+                                    <div id="s3_0_1_1_1_11_3" onclick="s3_0_1_1_1_11_3FC()">بنت</div>
+                                    <div id="s3_0_1_1_1_11_4" onclick="s3_0_1_1_1_11_4FC()" style="display: block;">حساب المعادلة</div>
+                                    <div id="s3_0_1_1_1_11_5" onclick="s3_0_1_1_1_11_5FC()" style="display: none;">حساب المعادلة</div>
+                                </div>
+                                <div id="s3_0_1_1_1_12">
+                                    <span id="s3_0_1_1_1_12_0">الناتج</span>
+                                    <div id="s3_0_1_1_1_12_1">0</div>
+                                    <div id="s3_0_1_1_1_12_2">410</div>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div id="s2_1">
-                    <div id="s2_1_0">
-
-                    </div>
-                    <div id="s2_1_1">
-                        
-                    </div>
-                </div>
-            </section>
-            <section class="s0" id="s3">
-             
             </section>
             <footer class="f" id="f">
                 <div id="f_0">
                     <div id="f_0_0">
-                        <div id="f_0_0_0">
-                            <svg id="f_0_0_0_0" width="66.534" height="133.056" viewBox="0 0 66.534 133.056">
-                                <path id="Path_41" data-name="Path 41" d="M225.129,437.921V371.387H158.595v66.534h43.812a43.813,43.813,0,0,1-43.812,43.8v22.722A66.521,66.521,0,0,0,225.129,437.921Z" transform="translate(-158.595 -371.387)"/>
-                            </svg>
-                            <svg id="f_0_0_0_1" width="66.522" height="133.056" viewBox="0 0 66.522 133.056">
-                                <path id="Path_42" data-name="Path 42" d="M149.838,481.721v22.722a66.519,66.519,0,0,0,66.522-66.522V371.387H149.838v66.534h43.8A43.811,43.811,0,0,1,149.838,481.721Z" transform="translate(-149.838 -371.387)"/>
-                            </svg>
-                        </div>
-                        <div id="f_0_0_1">
-                            <div id="f_0_0_1_0">
-                                من نحن؟
-                            </div>
-                            <div id="f_0_0_1_1">
-                                فريق المميز والمتميز التعليمي، هو فريق تطوعي إلكتروني ناشئ منذ عام 2012. يهدف إلى مساعدة الطلاب في الاستعداد الجيد لاختبار القدرات العامة. ذلك من خلال توفير بيئة ومجتمع يعمل بالتعاون بين أفراده.
-                            </div>
-                        </div>
-                        <div id="f_0_0_2">
-                            <div id="f_0_0_2_0"></div>
-                            <div id="f_0_0_2_1">
-                                <div id="f_0_0_2_1_0">
-                                    <img id="f_0_0_2_1_0_0" src="./Media/Photos/Icon.png" alt="MMQ4u"/>
-                                </div>
-                                <div id="f_0_0_2_1_1">
-                                    <div id="f_0_0_2_1_1_0">
-                                        فريق المميز والمتميز التعليمي
-                                    </div>
-                                    <div id="f_0_0_2_1_1_1">
-                                        #نساعد_فنسعد
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a id="f_0_0_0" href="./MMQ4u.html" target="_blank">
+                            <img id="f_0_0_0_0" src="./Media/Photos/Art.png" alt="Logo"/>
+                            <span id="f_0_0_0_1">2020 © المميز والمتميز التعليمي</span>
+                        </a>
                     </div>
                     <div id="f_0_1">
-                        <div id="f_0_1_0">
-                            <div id="f_0_1_0_0">
-                                <svg id="f_0_1_0_0_0" width="76.005" height="23.549" viewBox="0 0 76.005 23.549">
-                                    <path id="Path_44" data-name="Path 44" d="M28.89,262.556a12.842,12.842,0,0,1-2.548-.252,11.157,11.157,0,0,1-2.331-.733,7.311,7.311,0,0,1-2.019-1.334,4.629,4.629,0,0,1-1.178-1.766,2.438,2.438,0,0,1,.012-1.67,1.933,1.933,0,0,1,1.07-1.117,3.29,3.29,0,0,1,1.358-.325,1.807,1.807,0,0,1,.985.276,3.779,3.779,0,0,1,.685.577,5.478,5.478,0,0,0,.7.673,5.155,5.155,0,0,0,3.317,1.2,6,6,0,0,0,1.791-.216,1.1,1.1,0,0,0,.9-1.057,1.124,1.124,0,0,0-.517-1.009,6.274,6.274,0,0,0-1.55-.649l-2.307-.793q-4.3-1.466-5.24-3.208a5.187,5.187,0,0,1-.745-3.136v-.024a4.821,4.821,0,0,1,2.331-3.8,9.679,9.679,0,0,1,5.456-1.634,11.071,11.071,0,0,1,4.447.817,6.013,6.013,0,0,1,2.812,2.331,2.268,2.268,0,0,1,.433,1.754,1.493,1.493,0,0,1-.4.673,2.6,2.6,0,0,1-.541.409,4.127,4.127,0,0,1-1.731.529,1.9,1.9,0,0,1-.937-.24,9.932,9.932,0,0,1-.937-.6l-.192-.144a4.189,4.189,0,0,0-2.476-.889,3.55,3.55,0,0,0-1.695.336,1.005,1.005,0,0,0-.12,1.791,4.929,4.929,0,0,0,1.31.565l3.1.985a8.234,8.234,0,0,1,4.567,2.98,4.949,4.949,0,0,1,.745,1.6,4.329,4.329,0,0,1,.144,1.142,4.77,4.77,0,0,1-.7,2.536,5.936,5.936,0,0,1-2.043,1.959,10.516,10.516,0,0,1-2.74,1.082,13.233,13.233,0,0,1-3.221.385Zm23.434,2.427a1.264,1.264,0,0,1,.889-1.394,3.337,3.337,0,0,0,1.022-.6,2.638,2.638,0,0,0,.685-.913,7.215,7.215,0,0,0,.385-1.418,4.886,4.886,0,0,0,.1-.649,1.579,1.579,0,0,0,.048-.385l.072-.385.144-1.106.072-.385a1.579,1.579,0,0,1,.048-.385l.072-.481a.907.907,0,0,1,.048-.288l.024-.24.264-1.875.072-.625.168-1.106q.048-.072,0-.072.024-.024-.072-.024h-.745a.588.588,0,0,1-.577-.361.705.705,0,0,1-.048-.264q.048-.5.144-1.009a.672.672,0,0,1,.312-.433,1.179,1.179,0,0,1,.5-.168h.793a.842.842,0,0,0,.048-.264,6.2,6.2,0,0,1,.12-.625,4.348,4.348,0,0,1,.6-1.514,3.551,3.551,0,0,1,1.418-1.3l.433-.192a1.554,1.554,0,0,1,.481-.168,6.381,6.381,0,0,1,.865-.168,8.751,8.751,0,0,1,1.082-.072h.216a7.114,7.114,0,0,1,.841.1.592.592,0,0,1,.385.216.677.677,0,0,1,.156.493,3.767,3.767,0,0,1-.084.637,4.057,4.057,0,0,1-.072.433l-.024.12a.451.451,0,0,1-.168.288.479.479,0,0,1-.312.12h-.817a2.745,2.745,0,0,0-.385-.024h-.24a1.754,1.754,0,0,0-.649.192,1.456,1.456,0,0,0-.7.721,3.066,3.066,0,0,0-.264,1.009H63.6v.024h.024v-.024h.024a.761.761,0,0,1,.721.793,1.222,1.222,0,0,0-.024.24v.048q.048-.048.072-.048l.264-.24q.24-.192.529-.385a2.85,2.85,0,0,1,.625-.312,3.779,3.779,0,0,1,.889-.216,6.882,6.882,0,0,1,.745-.048,2.236,2.236,0,0,1,.5.024,2.348,2.348,0,0,1,.961.288,2.243,2.243,0,0,1,.913.937l.1.24.144-.144a.661.661,0,0,1,.192-.168,4.489,4.489,0,0,1,2.187-1.154,3.809,3.809,0,0,1,.625-.048,5.835,5.835,0,0,1,.721.048,3.247,3.247,0,0,1,1.058.312,1.9,1.9,0,0,1,.805.841,3.27,3.27,0,0,1,.324,1.25,6.371,6.371,0,0,1-.072,1.226v.072l-.1.841-.072.409-.048.361a3.152,3.152,0,0,0-.072.4,3.394,3.394,0,0,0-.024.4l-.1.529-.048.385-.048.24-.024.264-.144,1.009-.1.817-.1.529-.168,1.346-.024.048a2.127,2.127,0,0,1-.12.553.719.719,0,0,1-.481.433,1.789,1.789,0,0,1-.433.048H72.563a.607.607,0,0,1-.6-.36.921.921,0,0,1-.072-.288l.072-.553.048-.216v-.072a1.142,1.142,0,0,0,.048-.312,1.99,1.99,0,0,0,.048-.433,5.591,5.591,0,0,0,.1-.7q.072-.433.12-.865l.072-.433.168-1.274.048-.288a4.25,4.25,0,0,1,.1-.673,1.885,1.885,0,0,0,.048-.409,4.888,4.888,0,0,0,.1-.649l.024-.048q.072-.625.12-1.274a1.006,1.006,0,0,0-.144-.7.713.713,0,0,0-.481-.336,1.581,1.581,0,0,0-.385-.048,1.538,1.538,0,0,0-.529.1l-.144.072a3.056,3.056,0,0,0-1.034.745.272.272,0,0,1-.1.1.529.529,0,0,0-.1.216l-.12,1.106-.24,1.61a3.391,3.391,0,0,1-.024.4,3.149,3.149,0,0,1-.072.4l-.072.529-.048.264a1.4,1.4,0,0,1-.048.385l-.048.361q-.072.481-.12.913l-.072.553a4.238,4.238,0,0,1-.1.6,1.113,1.113,0,0,1-.024.216,4.885,4.885,0,0,1-.1.649.836.836,0,0,1-.841.721H66.77a.593.593,0,0,1-.649-.457,1,1,0,0,1-.024-.385v-.048a.908.908,0,0,0,.048-.288l.048-.192.144-1.13q.048-.409.12-.817l.048-.433.192-1.25.168-1.3.168-1.033a1.4,1.4,0,0,1,.048-.385,5.663,5.663,0,0,0,.072-1.37.733.733,0,0,0-.433-.721,1.268,1.268,0,0,0-.529-.12l-.216.024a2.246,2.246,0,0,0-.961.4,5.108,5.108,0,0,0-.721.637.366.366,0,0,0-.1.192l-.024.312a1.582,1.582,0,0,0-.048.385l-.144.817v.1l-.048.264-.048.433a4.86,4.86,0,0,1-.1.673q-.048.433-.12.865l-.048.409-.409,2.86q-.048.433-.144.889a.825.825,0,0,1-.2.409.709.709,0,0,1-.373.216,1.066,1.066,0,0,1-.336.048h-1.37a.539.539,0,0,1-.577-.409,1.561,1.561,0,0,1-.024-.481.982.982,0,0,1,.048-.312l.024-.168q.1-.649.168-1.25a1.58,1.58,0,0,0,.048-.385l.072-.433a1.679,1.679,0,0,1,.048-.409,1.491,1.491,0,0,0,.048-.36l.072-.409a1.8,1.8,0,0,1,.048-.385l.312-2.307.1-.6.072-.553a1.679,1.679,0,0,0,.048-.409,1.4,1.4,0,0,0,.048-.385l.12-.673H59.463q-.072,0-.1.1l-.1.6-.024.24a.267.267,0,0,0-.024.12l-.048.24a1.679,1.679,0,0,1-.048.409,5.583,5.583,0,0,1-.1.7l-.144,1.081-.072.409a1.681,1.681,0,0,1-.048.409,1.679,1.679,0,0,0-.048.409l-.072.385-.216,1.514-.192,1.514q-.625,3.533-1.971,4.434a4.156,4.156,0,0,1-2.259.877,1.782,1.782,0,0,1-.961-.12,1.111,1.111,0,0,1-.469-.336,1.194,1.194,0,0,1-.252-.649Zm-35.5-22.207q-2.067.1-2.512,1.094a3.422,3.422,0,0,0-.349,1.791v.409l-.144-.385a3.2,3.2,0,0,0-.24-.385,4.3,4.3,0,0,0-.817-.841,5.141,5.141,0,0,0-1.586-.841,8.433,8.433,0,0,0-2.716-.409,8.029,8.029,0,0,0-6.021,2.74A9.986,9.986,0,0,0,0,252.678a10.686,10.686,0,0,0,2.319,6.91,7.509,7.509,0,0,0,5.8,2.776h.312a8.108,8.108,0,0,0,3.389-.889,5.116,5.116,0,0,0,1.995-1.827l.144-.264v.5a3,3,0,0,0,.481,1.766q.529.853,2.38.9a2.493,2.493,0,0,0,2.476-1.322,3.182,3.182,0,0,0,.312-1.094q.048-.541.048-.853V246.766a6.464,6.464,0,0,0-.349-2.6q-.445-1.3-2.488-1.394Zm-7.4,14.42a3.12,3.12,0,0,1-2.56-1.178,4.779,4.779,0,0,1-.9-3.028,4.716,4.716,0,0,1,.9-3.2,3.187,3.187,0,0,1,2.56-.985,2.924,2.924,0,0,1,2.355.949,4.916,4.916,0,0,1,.889,3.233,5.018,5.018,0,0,1-.889,3.04A2.86,2.86,0,0,1,9.422,257.2Zm32.111,5.36q-1.971-.1-2.44-1.274a5.687,5.687,0,0,1-.421-2.355V246.285a5.988,5.988,0,0,1,.421-2.415q.469-1.214,2.44-1.31a2.924,2.924,0,0,1,2.187.721,2.278,2.278,0,0,1,.6,1.238,6.837,6.837,0,0,1,.072,1.238,1.617,1.617,0,0,0-.024.264v2.5l3.581-4.062a6.635,6.635,0,0,1,.673-.673,2.922,2.922,0,0,1,1.875-.865,2.611,2.611,0,0,1,1.466.5,3.829,3.829,0,0,1,.529.433,2.353,2.353,0,0,1,.721,1.911,2.659,2.659,0,0,1-.793,1.55L48.5,251.525l4.855,6.994a2.5,2.5,0,0,1,.481,1.815,2.54,2.54,0,0,1-2.572,2.223h-.1a2.6,2.6,0,0,1-1.214-.349,2.917,2.917,0,0,1-.949-.877L44.369,254.5v4.374a5.28,5.28,0,0,1-.433,2.5Q43.432,262.484,41.533,262.556Z" transform="translate(0 -242.56)" fill="#f16541"/>
-                                </svg>
-                                <div id="f_0_1_0_0_1">
-                                    ask.fm account
-                                </div>
-                            </div>
-                            <div id="f_0_1_0_1">
-                                <svg id="f_0_1_0_1_0" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.148" height="54.148" viewBox="0 0 54.148 54.148">
-                                    <image id="_034-instagram" data-name="034-instagram" width="54.148" height="54.148" xlink:href="data:image/png;base64,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"/>
-                                </svg>
-                                <div id="f_0_1_0_1_1">
-                                    instagrame
-                                </div>
-                            </div>
-                            <div id="f_0_1_0_2">
-                                <svg id="f_0_1_0_2_0" data-name="Group 246" xmlns="http://www.w3.org/2000/svg" width="64.236" height="44.163" viewBox="0 0 64.236 44.163">
-                                    <path id="Path_32" data-name="Path 32" d="M898.965,2342.427c-1.743-3.1-3.634-3.669-7.484-3.886-3.847-.26-13.518-.37-21.9-.37-8.395,0-18.071.11-21.913.367-3.842.221-5.738.787-7.5,3.89-1.795,3.1-2.717,8.427-2.717,17.813v.033c0,9.346.922,14.718,2.717,17.782,1.758,3.1,3.65,3.661,7.492,3.921,3.847.226,13.522.357,21.917.357,8.379,0,18.05-.132,21.9-.352,3.85-.262,5.74-.823,7.482-3.923,1.811-3.063,2.726-8.435,2.726-17.781v-.032C901.694,2350.853,900.779,2345.522,898.965,2342.427Z" transform="translate(-837.458 -2338.17)" fill="#f44336"/>
-                                    <path id="Path_33" data-name="Path 33" d="M852.637,2368.585V2344.5l20.074,12.044Z" transform="translate(-828.549 -2334.458)" fill="#fafafa"/>
-                                </svg>
-                                <div id="f_0_1_0_2_1">
-                                    youtube
-                                </div>
-                            </div>
-                            <div id="f_0_1_0_3">
-                                <svg id="f_0_1_0_3_0" width="61.401" height="49.889" viewBox="0 0 61.401 49.889">
-                                    <path id="Path_43" data-name="Path 43" d="M704.255,2341.572a26.234,26.234,0,0,1-7.253,1.988,12.521,12.521,0,0,0,5.538-6.958,25.183,25.183,0,0,1-7.983,3.048,12.586,12.586,0,0,0-21.775,8.607,12.9,12.9,0,0,0,.293,2.87,35.63,35.63,0,0,1-25.946-13.167A12.592,12.592,0,0,0,651,2354.786a12.454,12.454,0,0,1-5.687-1.55v.138a12.645,12.645,0,0,0,10.085,12.368,12.577,12.577,0,0,1-3.3.415,11.149,11.149,0,0,1-2.383-.215,12.71,12.71,0,0,0,11.763,8.769,25.293,25.293,0,0,1-15.608,5.369,23.708,23.708,0,0,1-3.012-.173,35.44,35.44,0,0,0,19.311,5.648c23.163,0,35.828-19.187,35.828-35.82,0-.557-.02-1.094-.046-1.628A25.094,25.094,0,0,0,704.255,2341.572Z" transform="translate(-642.854 -2335.666)" fill="#03a9f4"/>
-                                </svg>
-                                <div id="f_0_1_0_3_1">
-                                    twitter
-                                </div>
-                            </div>
-                            <div id="f_0_1_0_4">
-                                <svg id="f_0_1_0_4_0" data-name="Group 245" xmlns="http://www.w3.org/2000/svg" width="54.631" height="54.629" viewBox="0 0 54.631 54.629">
-                                    <path id="Path_30" data-name="Path 30" d="M792.785,2334.795H751.813a6.835,6.835,0,0,0-6.83,6.828V2382.6a6.835,6.835,0,0,0,6.83,6.828h40.972a6.835,6.835,0,0,0,6.829-6.828v-40.974A6.835,6.835,0,0,0,792.785,2334.795Z" transform="translate(-744.983 -2334.795)" fill="#1976d2"/>
-                                    <path id="Path_31" data-name="Path 31" d="M783.558,2358.35h-8.535v-6.829c0-1.885,1.529-1.706,3.414-1.706h3.415v-8.535h-6.829a10.242,10.242,0,0,0-10.243,10.242v6.829h-6.828v8.536h6.828v18.779h10.243v-18.779h5.122Z" transform="translate(-737.464 -2331.036)" fill="#fafafa"/>
-                                </svg>
-                                <div id="f_0_1_0_4_1">
-                                    Facebook page
-                                </div>
-                            </div>
-                            <div id="f_0_1_0_5">
-                                <svg id="f_0_1_0_5_0" data-name="Group 95" xmlns="http://www.w3.org/2000/svg" width="74.903" height="38.192" viewBox="0 0 74.903 38.192">
-                                    <g id="Group_94" data-name="Group 94" transform="translate(0 6.706)">
-                                      <path id="Path_37" data-name="Path 37" d="M705.48,2046.542c.869.37,1.735.751,2.613,1.093a1.029,1.029,0,0,1,.668.879,6.639,6.639,0,0,1-.2,2.914,1.268,1.268,0,0,1-1.241,1.111,1.466,1.466,0,0,0-.618.3,6.1,6.1,0,0,0-.46.415c1.789.762,3.64,1.609,5.486,2.557a8.894,8.894,0,0,1,2.324,1.7l.606.626v3h14.493a6.421,6.421,0,0,0-4.6-5.3c-1.643-.606-3.255-1.308-4.853-2.031a7.493,7.493,0,0,1-1.2-.978,1.543,1.543,0,0,0-.614-.306,1.268,1.268,0,0,1-1.245-1.113,6.664,6.664,0,0,1-.2-2.912,1.028,1.028,0,0,1,.668-.879c.881-.34,1.742-.723,2.613-1.093.653-.276.689-.5.456-1.175a25.6,25.6,0,0,1-1.483-6.537,27.52,27.52,0,0,0-.421-4.295h-.053c-.03-.131-.045-.261-.079-.389-.631-2.476-3.285-3.822-5.516-3.965-.021,0-.038-.006-.053-.006a3.868,3.868,0,0,0-.5.026,18.79,18.79,0,0,0-2.6.987,3.871,3.871,0,0,0-2.311,2.563,18.342,18.342,0,0,0-.64,5.077,25.652,25.652,0,0,1-1.483,6.535C704.789,2046.036,704.832,2046.267,705.48,2046.542Z" transform="translate(-654.25 -2029.666)" fill="#1769ad"/>
-                                      <path id="Path_38" data-name="Path 38" d="M579.147,2057.273l.68-.64a10.55,10.55,0,0,1,2.326-1.609l.68-.368c.965-.52,1.926-1.04,2.919-1.513.522-.249,1.066-.469,1.6-.7-.113-.312-.225-.625-.321-.942-.126-.4-.205-.807-.728-.916a.564.564,0,0,1-.312-.4c-.1-.777-.184-1.56-.237-2.345a.748.748,0,0,1,.188-.5,5,5,0,0,0,1.217-2.666,12.446,12.446,0,0,1,.511-1.479c.2-.672.357-1.357.511-2.039.056-.246.024-.511.062-.764.056-.368.045-.653-.4-.794-.124-.041-.223-.33-.225-.509-.024-1.091-.009-2.182-.013-3.274-.009-.668,0-1.344-.047-2.009a4.234,4.234,0,0,0-1.789-2.959c-1.378-1.132-2.979-2.2-4.714-2.063a1.041,1.041,0,0,0-.118.019.966.966,0,0,0-.118-.019c-1.737-.139-3.34.931-4.712,2.063a4.233,4.233,0,0,0-1.789,2.959c-.047.668-.045,1.342-.047,2.009,0,1.094.009,2.185-.013,3.274,0,.18-.1.471-.227.509-.441.141-.451.426-.394.794.041.252.006.518.062.764.152.682.312,1.365.509,2.039a12.84,12.84,0,0,1,.511,1.479,4.989,4.989,0,0,0,1.22,2.666.781.781,0,0,1,.186.5c-.053.785-.133,1.564-.24,2.345a.564.564,0,0,1-.312.4c-.52.109-.6.511-.725.916-.162.535-.338,1.07-.546,1.587a.84.84,0,0,1-.385.4c-.924.4-1.868.77-2.8,1.164-.991.413-1.992.813-2.957,1.275-1,.478-1.969,1.017-2.94,1.539a7.241,7.241,0,0,0-1.564,1.07v1.714h15.469v-2.981h.013v0Z" transform="translate(-563.666 -2028.77)" fill="#1769ad"/>
-                                    </g>
-                                    <path id="Path_39" data-name="Path 39" d="M651.72,2044.84a107.125,107.125,0,0,0-10.481-4.555,1.306,1.306,0,0,1-.693-.54,16.914,16.914,0,0,1-.7-2c-.131-.43-.242-.839-.719-1.042a.6.6,0,0,1-.237-.464c.026-1.562-.334-3.2.824-4.568a1.109,1.109,0,0,0,.075-.152c.623-1.37.736-2.932,1.609-4.207a.231.231,0,0,0,.03-.109c.1-.971.21-1.941.289-2.912a.453.453,0,0,0-.2-.372c-.482-.171-.456-.556-.451-.944q0-2.847,0-5.694a3.624,3.624,0,0,0-1.158-2.835c-.948-.852-1.926-1.678-2.9-2.5-.473-.4-.509-.7-.071-1.145a5.976,5.976,0,0,1,.668-.492c-.045-.075-.1-.148-.141-.223a5.494,5.494,0,0,0-.881.007c-1.078.173-2.165.325-3.222.577a13.409,13.409,0,0,0-5.634,2.463,5.081,5.081,0,0,0-2.133,3.531c-.053.8-.047,1.6-.053,2.4-.006,1.3.011,2.611-.017,3.911,0,.214-.128.561-.272.608-.526.171-.541.507-.473.948.049.3.013.618.077.914.182.815.377,1.631.61,2.433a14.577,14.577,0,0,1,.61,1.77,5.976,5.976,0,0,0,1.459,3.186.919.919,0,0,1,.223.606q-.1,1.4-.287,2.8a.689.689,0,0,1-.374.486c-.62.133-.717.608-.862,1.091-.2.64-.4,1.277-.655,1.9a.948.948,0,0,1-.458.477c-1.106.484-2.229.927-3.342,1.388-1.186.5-2.377.974-3.531,1.523-1.194.572-2.35,1.209-3.514,1.836a8.427,8.427,0,0,0-1.866,1.279v2.043h40.617v-2.129A6.6,6.6,0,0,0,651.72,2044.84Z" transform="translate(-595.222 -2010.07)" fill="#1976d2"/>
-                                </svg>
-                                <div id="f_0_1_0_5_1">
-                                    Facebook Group
-                                </div>
-                            </div>
+                        <div id="f_0_1_0">تابعونا</div>
+                        <div id="f_0_1_1">
+                            <a id="f_0_1_1_0" href="https://www.facebook.com/MMQ4u" target="_blank">فيس بوك</a><br/>
+                            <a id="f_0_1_1_1" href="https://t.me/MMQ4u" target="_blank">تليجرام</a><br/>
+                            <a id="f_0_1_1_2" href="https://www.twitter.com/MMQ2u" target="_blank">تويتر</a><br/>
+                            <a id="f_0_1_1_3" href="https://www.instagram.com/MMQ4u" target="_blank">انستجرام</a><br/>
+                            <a id="f_0_1_1_4" href="https://www.youtube.com/MMQ4u" target="_blank">يوتيوب</a>
                         </div>
                     </div>
                     <div id="f_0_2">
-                        <div id="f_0_2_0">
-                            <a id="f_0_2_0_0" href="./index.html" target="_blank">
-                                <div id="f_0_2_0_0_0">
-                                    <img id="f_0_2_0_0_0_0" src="./Media/Photos/Icon.png" alt="MMQ4u"/>
-                                </div>
-                                <div id="f_0_2_0_0_1">
-                                    <div id="f_0_2_0_0_1_0">منصة المميز</div>
-                                    <div id="f_0_2_0_0_1_1">منصة لكل شيء</div>
-                                </div>
-                            </a>
-                        </div>
+                        <div id="f_0_2_0">جروباتنا</div>
                         <div id="f_0_2_1">
-                            <div id="f_0_2_1_0">
-                                يتم تشغيل هذه المنصة وتطويرها من قبل فريق المميز والمتميز التعليمي، وجميع الحقوق محفوظة للفريق.
-                            </div>
-                            <div id="f_0_2_1_1">
-                                إعداد قسم تكنولوجيا المعلومات بالمميز<br/>
-                                تصميم: عبدالله جامع 
-                            </div>
-                        </div>
-                        <div id="f_0_2_2">
-                            شكرًا لثقتكم بنا، نعمل جاهدين على تطوير وتحسين خدماتنا. كما سنكون مسرورين لسماع مقترحكم من هنا.
+                            <a id="f_0_2_1_0" href="https://www.facebook.com/groups/MMQdrat2016" target="_blank">فيس بوك</a><br/>
+                            <a id="f_0_2_1_1" href="https://drive.google.com/open?id=1QpJKIeVpqKFx9OqH41ergS38Rjt9uUtX" target="_blank">تليجرام</a>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
 <!--    JS BS                           -->
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--    JS                              -->
         <script src="./JS/Main.js"></script>
 		<script src="./JS/Loader.js"></script>
