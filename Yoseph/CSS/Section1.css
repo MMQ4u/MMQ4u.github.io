@@ -62,11 +62,11 @@
 #s1_0_2_0_1_1_0, #s1_0_2_0_1_1_1, #s1_0_2_0_1_1_2, #s1_0_2_0_1_1_3,
 #s1_0_3_0_1_1_0, #s1_0_3_0_1_1_1, #s1_0_3_0_1_1_2, #s1_0_3_0_1_1_3 {
     color: rgba(83, 92, 93, 1);
-    transition: font-family ease-out 0.5s;
-    border-color: rgba(112, 112, 112, 1);
+    padding: 10px 20px 9px 20px;
+    transition: box-shadow ease-out 0.05s;
+    border-color: rgba(112, 112, 112, 0.5);
     border-style: solid;
     border-width:  0 0 1px 0;
-    padding: 10px 20px 9px 20px;
     font-family: segoeui;
     font-size: 20px;
 }
