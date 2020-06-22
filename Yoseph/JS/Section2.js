@@ -432,7 +432,11 @@ function boygirlm() {
 }
 function s2_0_2_1_0FC() {
     boygirlm();
-    document.getElementById("s2_0_2_2_1_1").innerHTML = t_NB.toFixed(6);
+    if (isNaN(t_NB) == true) {
+        t_NB = 0;
+    } else {
+        document.getElementById("s2_0_2_2_1_1").innerHTML = t_NB.toFixed(6);
+    }
 }
 function s2_0_2_1_1FC() {
     boyf();
@@ -441,4 +445,13 @@ function s2_0_2_1_1FC() {
 function s2_0_2_1_2FC() {
     girlf();
     document.getElementById("s2_0_2_2_1_1").innerHTML = t_NB.toFixed(6);
+}
+var i;
+var marks = document.getElementsByClassName("marks");
+function marksFK(i) {
+    if (marks[i].value > 100) {
+        marks[i].value = "";
+    } else if (isNaN(marks[i].value) == true) {
+        marks[i].value = "";
+    }
 }
