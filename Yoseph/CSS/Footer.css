@@ -30,7 +30,7 @@
     padding: 50px;
     flex-direction: row;
 }
-#f_0_1_0_0_0 {
+#f_0_1_0_0_0_0 {
     height: 100px;
 }
 #f_0_1_0_0_1 {
@@ -84,4 +84,86 @@
     font-family: segoeuii;
     font-size: 15px;
     text-align: center;
+}
+@media (max-width: 1030px) {
+    #f_0 {
+        margin: 100px 0 0 0;
+        border-color: rgba(112, 112, 112, 0.5);
+        border-style: solid;
+        border-width: 1px 0 0 0;
+    }
+    #f_0_0 {
+        cursor: pointer;
+        color: rgba(83, 92, 93, 1);
+        left: 50px;
+        padding: 20px;
+        position: absolute;
+        transform: translate(0, -33.2px);
+        width: 26.4px;
+        background-color: rgba(247, 247, 247, 1);
+        border-radius: 66.4px;
+        font-size: 20px;
+        text-align: center;
+        z-index: 0;
+    }
+    #f_0_1 {
+        display: flex;
+        margin: 50px 0 0 0;
+        flex-direction: column;
+    }
+    #f_0_1_0 {
+    
+    }
+    #f_0_1_0_0 {
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
+    }
+    #f_0_1_0_0_0 {
+        width: 100%;
+    }
+    #f_0_1_0_0_0_0 {
+        display: block;
+        height: 100px;
+        margin: auto;
+        width: 110.900px;
+    }
+    #f_0_1_0_0_1 {
+        margin: 25px 0 0 0;
+        padding: 0;
+        width: 100%;
+        font-family: segoeuib;
+        line-height: 25px;
+        text-align: center;
+    }
+    #f_0_1_0_0_1_0 {
+        color: rgba(0, 44, 73, 1);
+        font-size: 30px;
+    }
+    #f_0_1_0_0_1_1 {
+        color: rgba(83, 92, 93, 1);
+        font-size: 22.5px;
+    }
+    #f_0_1_1 {
+        display: flex;
+        margin: 60px 0 0 0;
+        flex-direction: column;
+    }
+    #f_0_1_1_0 {
+        color: rgba(83, 92, 93, 1);
+        display: flex;
+        flex-direction: column;
+        font-family: segoeuib;
+        font-size: 20px;
+    }
+    #f_0_1_1_0_0 {
+        padding: 10px 20px;
+        text-align: center;
+    }
+    #f_0_1_1_0_1 {
+        display: flex;
+        margin: auto;
+        width: 500px;
+        flex-direction: row;
+    }
 }
