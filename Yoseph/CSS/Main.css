@@ -3,5 +3,6 @@
 }
 .m {
     margin: 0;
+    width: auto;
     font-family: segoeui;
 }
