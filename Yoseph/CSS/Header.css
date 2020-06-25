@@ -54,6 +54,7 @@
     border-width:  0 0 2.5px 0;
 }
 #h_1_1 {
+    display: none;
     padding: 20px 0;
     background-color: rgba(237, 237, 237, 1);
 }

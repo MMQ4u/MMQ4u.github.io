@@ -19,5 +19,6 @@ function h_1FS() {
         document.getElementById("h_1").style.position = "static";
         document.getElementById("h_1").style.boxShadow = "none";
         document.getElementById("h_2").style.display = "none";
+        document.getElementById("h_1_1").style.display = "none";
     }
 }
