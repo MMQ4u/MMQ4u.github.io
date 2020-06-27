@@ -30,7 +30,27 @@
 #s0_0_4_0_0 {
     height: 250px;
     width: 250px;
-    background-color: rgba(42, 213, 239, 1);
+    background-color: rgba(68, 225, 220, 1);
+}
+#s0_0_1_0_0_0,
+#s0_0_2_0_0_0,
+#s0_0_3_0_0_0,
+#s0_0_4_0_0_0 {
+    display: block;
+    height: 150px;
+    margin: 50px auto;
+}
+#s0_0_1_0_0_0 {
+    width: 148.04px;
+}
+#s0_0_2_0_0_0 {
+    width: 137.6px;
+}
+#s0_0_3_0_0_0 {
+    width: 133.81px;
+}
+#s0_0_4_0_0_0 {
+    width: 173.59px;
 }
 #s0_0_1_0_1,
 #s0_0_2_0_1,
@@ -138,7 +158,6 @@
     #s0_0_4_0_0 {
         height: 250px;
         width: 100%;
-        background-color: rgba(42, 213, 239, 1);
     }
     #s0_0_1_0_1,
     #s0_0_2_0_1,
