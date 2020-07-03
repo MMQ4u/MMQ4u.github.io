@@ -406,7 +406,7 @@ function girlf() {
 function boygirlm() {
     l1_PB = Number(lm1[0].value) + Number(lm1[1].value) + Number(lm1[2].value) + Number(lm1[3].value) + Number(lm1[4].value) + Number(lm1[5].value) + Number(lm1[6].value) + Number(lm1[7].value) + Number(lm1[8].value);
     l1_NB = (l1_PB / 9);
-    l2_PB = Number(lm2[0].value) + Number(lm2[1].value) + Number(lm2[2].value) + Number(lm2[3].value) + Number(lm2[4].value) + Number(lm2[6].value) + Number(lm2[7].value);
+    l2_PB = Number(lm2[0].value) + Number(lm2[1].value) + Number(lm2[2].value) + Number(lm2[3].value) + Number(lm2[4].value) + Number(lm2[5].value) + Number(lm2[6].value);
     l2_NB = (l2_PB / 7);
     l12_PB = l1_NB + l2_NB;
     l12_NB = l12_PB;
