@@ -405,25 +405,19 @@ function girlf() {
 }
 function boygirlm() {
     l1_PB = Number(lm1[0].value) + Number(lm1[1].value) + Number(lm1[2].value) + Number(lm1[3].value) + Number(lm1[4].value) + Number(lm1[5].value) + Number(lm1[6].value) + Number(lm1[7].value) + Number(lm1[8].value);
-    l1_NB = (l1_PB / 9);
-    l2_PB = Number(lm2[0].value) + Number(lm2[1].value) + Number(lm2[2].value) + Number(lm2[3].value) + Number(lm2[4].value) + Number(lm2[5].value) + Number(lm2[6].value);
-    l2_NB = (l2_PB / 7);
-    l12_PB = l1_NB + l2_NB;
-    l12_NB = l12_PB;
-    l3_PB = Number(lm3[0].value) + Number(lm3[1].value) + Number(lm3[2].value) + Number(lm3[3].value) + Number(lm3[4].value) + Number(lm3[5].value);
-    l3_NB = (l3_PB / 6);
-    l4_PB = Number(lm4[0].value) + Number(lm4[1].value) + Number(lm4[2].value) + Number(lm4[3].value) + Number(lm4[4].value);
-    l4_NB = (l4_PB / 5);
-    l34_PB = l3_NB + l4_NB;
-    l34_NB = l34_PB;
+    l1_NB = l1_PB;
+    l2_PB = Number(lm2[0].value) + Number(lm2[1].value) + Number(lm2[2].value) + Number(lm2[3].value) + Number(lm2[4].value) + Number(lm2[6].value) + Number(lm2[7].value);
+    l2_NB = l2_PB;
+    l3_PB = Number(lm3[0].value) + Number(lm3[1].value) + Number(lm3[2].value) + Number(lm3[3].value) + Number(lm3[4].value) + Number(lm3[6].value);
+    l3_NB = l3_PB;
+    l4_PB = Number(lm4[0].value) + Number(lm4[1].value) + Number(lm4[3].value) + Number(lm4[4].value) + Number(lm4[6].value);
+    l4_NB = l4_PB;
     l5_PB = Number(lm5[0].value) + Number(lm5[1].value);
-    l5_NB = (l5_PB / 2);
+    l5_NB = l5_PB;
     l6_PB = Number(lm6[0].value);
-    l6_NB = (l6_PB / 1);
-    l56_PB = l5_NB + l6_NB;
-    l56_NB = l56_PB;
-    l123456_PB = (l12_NB + l34_NB + l56_NB) / 1200;
-    l123456_NB = l123456_PB * 100;
+    l6_NB = l6_PB;
+    l123456_PB = (l1_NB + l2_NB + l3_NB + l4_NB + l5_NB + l6_NB) / 3000;
+    l123456_NB = (l123456_PB * 100) / 2;
     q_PB = (Number(qm1[0].value));
     q_NB = q_PB / 2;
     t_PB = l123456_NB + q_NB;
