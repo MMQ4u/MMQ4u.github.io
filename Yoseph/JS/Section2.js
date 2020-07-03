@@ -410,7 +410,7 @@ function boygirlm() {
     l2_NB = (l2_PB / 7);
     l12_PB = l1_NB + l2_NB;
     l12_NB = l12_PB;
-    l3_PB = Number(lm3[0].value) + Number(lm3[1].value) + Number(lm3[2].value) + Number(lm3[3].value) + Number(lm3[4].value) + Number(lm3[6].value);
+    l3_PB = Number(lm3[0].value) + Number(lm3[1].value) + Number(lm3[2].value) + Number(lm3[3].value) + Number(lm3[4].value) + Number(lm3[5].value);
     l3_NB = (l3_PB / 6);
     l4_PB = Number(lm4[0].value) + Number(lm4[1].value) + Number(lm4[2].value) + Number(lm4[3].value) + Number(lm4[4].value);
     l4_NB = (l4_PB / 5);
